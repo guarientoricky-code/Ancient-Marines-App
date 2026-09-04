@@ -106,30 +106,36 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .brand-logo {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.75rem;
   text-decoration: none;
   color: var(--text-main);
   min-width: 0;
 }
 
 .brand-logo img {
-  height: 42px;
-  width: 42px;
+  height: 44px;
+  width: 44px;
   object-fit: cover;
   border-radius: var(--radius-sm);
   border: 1px solid var(--text-gold);
   flex-shrink: 0;
 }
 
+.brand-text-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
 .brand-title {
   font-family: var(--font-metal);
-  font-size: 1.35rem;
+  font-size: 1.45rem;
   letter-spacing: 1px;
   white-space: nowrap;
   overflow: hidden;
@@ -142,7 +148,7 @@ body {
 
 .brand-subtitle {
   font-family: var(--font-title);
-  font-size: 0.6rem;
+  font-size: 0.65rem;
   color: var(--accent-crimson-bright);
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -162,7 +168,7 @@ body {
   background: var(--bg-secondary);
   color: var(--text-main);
   border: 1px solid var(--border-color);
-  padding: 0.5rem 0.85rem;
+  padding: 0.55rem 0.95rem;
   border-radius: var(--radius-sm);
   font-weight: 600;
   font-size: 0.85rem;
@@ -476,7 +482,7 @@ body {
 /* Floating Toolbar for Live Performance */
 .live-toolbar {
   position: sticky;
-  top: 60px;
+  top: 110px;
   z-index: 90;
   width: 100%;
   background: rgba(18, 24, 41, 0.95);
@@ -712,16 +718,24 @@ body {
 /* Responsive Breakpoints */
 @media (max-width: 640px) {
   .header-container {
-    padding: 0.6rem 0.75rem;
+    padding: 0.5rem 0.75rem;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .brand-logo {
+    width: 100%;
+    justify-content: flex-start;
   }
 
   .brand-logo img {
-    height: 34px;
-    width: 34px;
+    height: 36px;
+    width: 36px;
   }
 
   .brand-title {
-    font-size: 1.15rem;
+    font-size: 1.2rem;
   }
 
   .brand-subtitle {
@@ -729,9 +743,17 @@ body {
     letter-spacing: 1px;
   }
 
-  .btn {
-    padding: 0.45rem 0.65rem;
-    font-size: 0.75rem;
+  .header-actions {
+    width: 100%;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .btn-header-action {
+    flex: 1;
+    padding: 0.45rem 0.5rem;
+    font-size: 0.8rem;
+    justify-content: center;
   }
 
   .hero-banner {
@@ -768,7 +790,7 @@ body {
   }
 
   .live-toolbar {
-    top: 52px;
+    top: 105px;
     flex-direction: column;
     align-items: stretch;
     gap: 0.5rem;
