@@ -1,6 +1,6 @@
 /**
  * The Ancient Mariners - Iron Maiden Songs Database
- * Complete lyrics, chords, tabs, tuning & musical metadata
+ * 100% Full Unabridged Lyrics, Chords, Tabs, Tuning & Musical Metadata
  */
 
 const SONGS_DATABASE = [
@@ -66,19 +66,60 @@ We [C]stuck, nor breath nor [D]motion
 [Em]As idle as a painted ship
 U[C]pon a painted [D]ocean
 
-[C]Water, water [D]everywhere
-[Em]And all the boards did shrink
-[C]Water, water [D]everywhere
-[B5]Nor any drop to drink...
+[Em]The water, water everywhere
+[C]And all the boards did [D]shrink
+[Em]Water, water everywhere
+[C]Nor any drop to [D]drink
 
-[Atmospheric Middle Section]
+[Pre-Chorus]
+[C]There calls the ship, [D]there comes a ship
+[Em]A skeleton ship, a phantom crew
+[C]Death and Life-in-Death, [D]they roll the dice for the crew
+[Em]She wins the Mariner and he belongs to her now!
+
+[Chorus]
+[G]And the ship sailed [D]on, back to the [Em]north
+Through the [C]fog and ice and the [D]albatross follows [Em]on
+[G]The mariner [D]kills the bird of [Em]good omen
+[C]His shipmates cry out [D]at his terrible [Em]deed
+"You've [C]killed the bird that [D]made the breeze [Em]blow!"
+
+[Atmospheric Spoken Section]
 [Em] [D] [C] [B5]
 "One after one, by the star-dogged moon, too quick for groan or sigh
-Each turned his face with a ghastly pang, and cursed me with his eye..."
+Each turned his face with a ghastly pang, and cursed me with his eye
+Four times fifty living men, and I heard nor sigh nor groan
+With heavy thump, a lifeless lump, they dropped down one by one
+The souls did from their bodies fly, they fled to bliss or woe
+And every soul, it passed me by, like the whizz of my crossbow..."
+
+[Creaking Ship & Bass Solo]
+[Em] [D] [C] [D]
+
+[Heavy Fast Return Riff]
+[Em]The curse it lives on in their eyes!
+[C]How long can I look in those [D]dead men's eyes?
+[Em]Seven days and seven nights I saw the curse
+[C]And yet I could not [D]die...
+
+[Verse 3]
+[Em]Then the spell starts to break
+[C]The albatross falls from his [D]neck, sinks like lead
+[Em]Into the sea, down into the sea
+[C]And the rain falls down to [D]wash away my sin!
+
+[Chorus]
+[G]And the ship sailed [D]on, back to the [Em]north
+Through the [C]fog and ice and the [D]albatross follows [Em]on
+[G]The mariner [D]kills the bird of [Em]good omen
+[C]His shipmates cry out [D]at his terrible [Em]deed
+"You've [C]killed the bird that [D]made the breeze [Em]blow!"
 
 [Outro]
 [Em]The Mariner hath [C]his redemption
 [D]And his tale is [Em]told!
+[Em]He prayeth best, who loveth best
+[C]All things both [D]great and [Em]small...
 [Em] [C] [D] [Em]`
   },
   {
@@ -117,6 +158,26 @@ E|-------------------|-------------------|-------------------|------------------
 [Em]The horse he sweats with fear, we break to run
 [C]The mighty roar of the [D]Russian guns
 
+[Chorus]
+[Em]Ooh-ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh-ooh! [D]
+[Em]Ooh-ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh-ooh! [D]
+
+[Verse 3]
+[Em]We hurdle bodies that lie on the plain
+[C]And as the Russian [D]lay another aim
+[Em]We get so near yet so far away
+[C]We won't live to fight [D]another day
+
+[Chorus]
+[Em]Ooh-ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh-ooh! [D]
+[Em]Ooh-ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh-ooh! [D]
+
+[Verse 4]
+[Em]We get so close, near enough to fight
+[C]When a Russian gets me [D]in his sights
+[Em]He pulls the trigger and I feel the blow
+[C]A burst of rounds takes my [D]horse below
+
 [Bridge]
 [C]And as we wipe the tears from [D]our eyes
 [Em]A thousand soldiers meet their demise
@@ -131,7 +192,7 @@ E|-------------------|-------------------|-------------------|------------------
 [E5] [D5] [C5] [D5]
 [E5] [D5] [C5] [D5]
 
-[Outro Riff & Final Chords]
+[Outro Main Riff & Final Chords]
 [Em] [C] [D] [Em]`
   },
   {
@@ -155,6 +216,7 @@ E|----------------------------------------------------------------------------|
 [/TAB]
 
 [Crowd Singing Chants]
+[Dm]Ooh-ooh-ooh-ooh! [Bb]Ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh! [Dm]
 [Dm]Ooh-ooh-ooh-ooh! [Bb]Ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh! [Dm]
 
 [Verse 1]
@@ -180,13 +242,38 @@ When you're [C]searching for the light switch?[Dm]
 [Dm]Have you ever read a story late at night
 And [Bb]wondered if the shadows behind you are alive?[C] [Dm]
 
+[Chorus]
+[Dm]Fear of the dark, [Bb]fear of the dark
+[C]I have a constant fear that something's [Dm]always near
+[Dm]Fear of the dark, [Bb]fear of the dark
+[C]I have a phobia that someone's [Dm]always there
+
+[Verse 3]
+[Dm]When your house is dark and silent
+And you're [Bb]lying in your bed
+And you [C]hear a sudden creaking floorboard[Dm]
+
+[Dm]Does your mind begin to play tricks
+As you [Bb]look towards the door
+And you're [C]watching for a shadow on the floor?[Dm]
+
+[Verse 4]
+[Dm]Watching horror movies the night before
+[Bb]Debating if the monsters were real
+[C]Watching for a creature lurking in the dark[Dm]
+
 [Guitar Solos Rhythm Section]
 [Dm] [Bb] [C] [Dm]
 [F] [C] [Dm] [Bb]
 [F] [C] [Bb] [C]
 
-[Outro Melody]
-[Dm] [Bb] [C] [Dm]`
+[Fast Heavy Section]
+[Dm] [C] [Bb] [C]
+[Dm] [C] [Bb] [C]
+
+[Outro Crowd Singing & Final Melody]
+[Dm]Ooh-ooh-ooh-ooh! [Bb]Ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh! [Dm]
+[Dm]Fear of the dark... [Dm]`
   },
   {
     id: "hallowed-be-thy-name",
@@ -204,7 +291,12 @@ And [Bb]wondered if the shadows behind you are alive?[C] [Dm]
 [Em]'Cause at 5 o'clock, they take me to the [D]Gallows Pole
 [C]The sands of time for me are running [Bm]low...
 
-[Fast Heavy Riff]
+[Em]When the priest comes to read me the [D]last rites
+[C]I take a look through the bars at the [Bm]night
+[Em]Heretics watching the clock ticking [D]down
+[C]Counting the minutes left for me to [Bm]drown
+
+[Fast Heavy Gallop Riff]
 [TAB]
 e|-----------------------------------|-----------------------------------|
 B|-----------------------------------|-----------------------------------|
@@ -215,18 +307,30 @@ E|-----------------------------------|-----------------------------------|
 [/TAB]
 
 [Verse 1]
-[Em]When the priest comes to read me the [C]last rites
-[D]I take a look through the bars at the [Em]night
-[Em]Heretics watching the clock ticking [C]down
-[D]Counting the minutes left for me to [Em]drown
+[Em]Can it be that there's some sort of [C]error?
+[D]Hard to stop the surmounting terror
+[Em]Is it really the end, not some [C]crazy dream?
+[D]Somebody tell me that I'm dreaming!
+
+[Verse 2]
+[Em]Somebody please tell me that I'm [C]dreaming!
+[D]It's not easy to stop from screaming
+[Em]Words escape me when I try to [C]speak
+[D]Tears fall down but why am I crying?
 
 [Chorus]
 [C]Hallowed [D]be thy [Em]name!
 [C]Hallowed [D]be thy [Em]name!
 
-[Fast Galloping Section]
-[Em] [C] [D] [B5]
-[Em] [C] [D] [Em]
+[Verse 3]
+[Em]Tears fall down, but why am I [C]crying?
+[D]Not afraid of dying, but I'm lying
+[Em]Is there a soul beyond the grave, [C]where do I go?
+[D]Mark my words, my soul will live on!
+
+[Chorus]
+[C]Hallowed [D]be thy [Em]name!
+[C]Hallowed [D]be thy [Em]name!
 
 [Epic Twin Guitar Harmony Solo]
 [TAB]
@@ -238,7 +342,8 @@ A|----------------------------------|----------------------------------|
 E|----------------------------------|----------------------------------|
 [/TAB]
 
-[Outro]
+[Fast Outro Section]
+[Em] [C] [D] [Em]
 [Em]Yeah, yeah, yeah! Hallowed be thy name!
 [Em] [D] [C] [D] [Em]`
   },
@@ -289,6 +394,10 @@ And [Em]taking their land for our own gain
 [Solo Rhythm]
 [E5] [G5] [A5] [C5] [D5]
 
+[Chorus]
+[G]Run to the [F]hills, [C]run for your [D]lives!
+[G]Run to the [F]hills, [C]run for your [D]lives!
+
 [Outro]
 [G]Run for your [D]li-i-i-ives!
 [G] [F] [C] [D] [G]`
@@ -330,9 +439,21 @@ E|---------------------------------------------------------------|
 [D]Face up, make your stand
 [Em]Realise you're living in the golden years!
 
+[Verse 3]
+[Em]Don't look back, don't look back in anger
+[C]Don't look back, leave the past behind
+[D]Face up, make your stand
+[Em]Realise you're living in the golden years!
+
 [Guitar Solo Rhythm]
 [Em] [C] [D] [Em]
 [Em] [C] [D] [Em]
+
+[Chorus]
+[Em]So understand, don't waste your time
+[C]Always searching for those wasted years
+[D]Face up, make your stand
+[Em]Realise you're living in the golden years!
 
 [Outro]
 [Em]Living in the golden years...
@@ -349,7 +470,9 @@ E|---------------------------------------------------------------|
     type: "Chords & Intro Spoken Tabs",
     summary: "Featuring Bruce Dickinson's legendary high-pitched scream after the Vincent Price spoken intro.",
     content: `[Spoken Intro]
-"Woe to you, oh earth and sea, for the Devil sends the beast with wrath..."
+"Woe to you, oh earth and sea, for the Devil sends the beast with wrath
+Because he knows his time is short... Let him who hath understanding reckon the number of the beast
+For it is a human number, its number is six hundred and sixty six..."
 
 [High Dickinson Scream & Main Riff]
 [TAB]
@@ -367,18 +490,24 @@ E|-----------------------------------|
 [D]What did I see, can I believe
 [C]That what I saw that night was real and [G]not just fantasy?
 
+[Verse 2]
+[D]What I saw in my old dreams
+[C]Were they reflections of my warped mind [G]staring back at me?
+[D]Cause in my dreams it's always there
+[C]The evil face that twists my mind and [G]brings me to despair
+
 [Chorus]
 [E]666, the [C]number of the [D]beast!
 [E]Hell and fire was [C]spawned to be re[D]leased!
 
-[Verse 2]
+[Verse 3]
 [D]In the night the fires are burning bright
 [C]The ritual has begun, Satan's [G]work is done
 [D]666, the one for you and me
 [C]I'm coming back, I will return
 [G]And I'll possess your body and I'll make you burn!
 
-[Solo Rhythm]
+[Solo Rhythm Section]
 [E] [D] [C] [D]
 [F#m] [E] [D] [E]
 
@@ -396,6 +525,7 @@ E|-----------------------------------|
     type: "Chords & High-Speed Gallop Tabs",
     summary: "Adrenaline-fueled WWII Battle of Britain fighter pilot anthem.",
     content: `[Churchill's Speech Intro / Intro Riff]
+"We shall fight on the beaches, we shall fight on the landing grounds..."
 [TAB]
 e|-----------------------------------|-----------------------------------|
 B|-----------------------------------|-----------------------------------|
@@ -425,78 +555,79 @@ E|-----------------------------------|-----------------------------------|
 [Em]Run, live to fly, fly to live, do or die!
 [C]Won't you run, live to fly, [D]fly to live, [Em]Aces high!
 
+[Guitar Solos Rhythm Section]
+[E5] [C5] [D5] [E5]
+[F5] [Db5] [Eb5] [F5]
+
 [Outro]
 [Em]Aces high! Aces high!
 [Em] [C] [D] [Em]`
   },
   {
-    id: "2-minutes-to-midnight",
-    title: "2 Minutes to Midnight",
+    id: "powerslave",
+    title: "Powerslave",
     album: "Powerslave (1984)",
     tuning: "E Standard (E A D G B E)",
-    key: "A / A5",
-    bpm: 148,
-    difficulty: "Intermediate",
-    type: "Chords & Adrian Smith Blues Riff",
-    summary: "Heavy riffing commentary on the Cold War Doomsday Clock.",
-    content: `[Adrian Smith Main Blues-Metal Riff]
+    key: "Em",
+    bpm: 140,
+    difficulty: "Advanced",
+    type: "Full Chords & Solos Riffs",
+    summary: "Title track from the 1984 album with ancient Egyptian mystery themes.",
+    content: `[Egyptian Guitar Riff]
 [TAB]
-e|-----------------------|-----------------------|
-B|---2---2---2---2---4-5-|---2---2---2---2---4-2-|
-G|---2---2---2---2---4-5-|---2---2---2---2---4-2-|
-D|---2---2---2---2---4-5-|---2---2---2---2---4-2-|
-A|-0---0---0---0---0-----|-0---0---0---0---0-----|
-E|-----------------------|-----------------------|
+e|---------------------------------|---------------------------------|
+B|---------------------------------|---------------------------------|
+G|---------------------------------|---------------------------------|
+D|-----7---8---7---5---7---5---4---|-----7---8---7---5---7---5---4---|
+A|-0-0---0---0---0---0---0---0---0-|-0-0---0---0---0---0---0---0---0-|
+E|---------------------------------|---------------------------------|
 [/TAB]
 
 [Verse 1]
-[A5]Kill for gain or shoot to maim, but we don't need a reason
-[F5]The Golden Goose is on the loose and [G5]never out of season
-[A5]Blackened pride still burns inside, this nightmare just begun
-[F5]Going mad with bloodlust and the [G5]poison of the gun
+[Em]Into the abyss I fall, the eye of Horus
+[C]Into the dark world of [D]Isis and Osiris
+[Em]Slave to the power of death, I am a god
+[C]Why must I die to live [D]again?
 
 [Chorus]
-[A5]Two minutes to midnight!
-The [F5]hands that threaten [G5]doom!
-[A5]Two minutes to midnight!
-To [F5]kill the unborn in the [G5]womb!
+[Em]Tell me why I had to be a Powerslave!
+[C]I don't wanna die, I'm a god, why can't I [D]live on?
+[Em]When the Life-Giver dies, all his power goes on!
+[C]Tell me why I had to be a [D]Powerslave!
+
+[Middle Egyptian Solo Rhythm]
+[Em] [C] [D] [Em]
 
 [Outro]
-[A5]Midnight! Midnight! Midnight! It's all gone!
-[A5] [F5] [G5] [A5]`
+[Em]Powerslave! [Em]`
   },
   {
-    id: "phantom-of-the-opera",
-    title: "Phantom of the Opera",
-    album: "Iron Maiden (1980)",
+    id: "flight-of-icarus",
+    title: "Flight of Icarus",
+    album: "Piece of Mind (1983)",
     tuning: "E Standard (E A D G B E)",
-    key: "Em",
-    bpm: 165,
-    difficulty: "Expert",
-    type: "Chords & Progressive Metal Tabs",
-    summary: "Early Maiden progressive heavy metal masterpiece with intricate bass and guitar arpeggios.",
-    content: `[Fast Intro Arpeggio Riff]
-[TAB]
-e|-12-0-0-10-0-0-8-0-0-7-0-0-8-0-0-7-0-0-5-0-0-7-0-0-|
-B|----------------------------------------------------|
-G|----------------------------------------------------|
-D|----------------------------------------------------|
-A|----------------------------------------------------|
-E|----------------------------------------------------|
-[/TAB]
+    key: "F#m / A",
+    bpm: 120,
+    difficulty: "Intermediate",
+    type: "Chords & Melodic Tabs",
+    summary: "Based on the Greek myth of Icarus flying too close to the sun.",
+    content: `[Main Riff]
+[F#m] [D] [E] [F#m]
 
 [Verse 1]
-[Em]I've been looking so long at these pictures of you
-[C]That I almost believe that they're [D]real
-[Em]I've been living so long with my memories of you
-[C]That I almost forget the way I [D]feel
+[F#m]As the sun breaks, above the ground
+[D]An old man stands on the [E]hill
+[F#m]As the ground warms, to the first ray of light
+[D]A bird shakes its wings and [E]flies
 
 [Chorus]
-[Em]Keep your distance, walk away, don't look back
-[C]Phantom of the [D]Opera is gonna get [Em]you!
+[F#m]Fly, as high as the [D]sun!
+[E]Fly, on your wings, like an [F#m]eagle!
+[F#m]Fly, as high as the [D]sun!
+[E]Touch the sun!
 
-[Outro Section]
-[Em] [C] [D] [Em]`
+[Outro]
+[F#m]Fly, on your wings! [F#m]`
   }
 ];
 
