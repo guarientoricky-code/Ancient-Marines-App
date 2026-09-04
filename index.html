@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Ancient Mariners - Iron Maiden Testi, Accordi & Tabulati</title>
+  <meta name="description" content="Web App per la cover band 'The Ancient Mariners'. Raccoglie tutti i testi con accordi, tabulati di chitarra/basso e strumenti live per i brani degli Iron Maiden.">
+
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:title" content="The Ancient Mariners - Iron Maiden Cover Band">
+  <meta property="og:description" content="Testi, accordi, tabulati, trasposizione tonalità e auto-scroll per suonare live i classici degli Iron Maiden.">
+  <meta property="og:image" content="assets/banner.jpg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/banner.jpg">
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="#" class="brand-logo" id="header-brand-logo">
+        <img src="assets/banner.jpg" alt="The Ancient Mariners Banner Logo">
+        <div>
+          <div class="brand-title">THE ANCIENT MARINERS</div>
+          <div class="brand-subtitle">IRON MAIDEN TRIBUTE BAND</div>
+        </div>
+      </a>
+
+      <div class="header-actions">
+        <button class="btn" id="btn-setlist" title="Visualizza o modifica la tua scaletta per i concerti">
+          📋 Scaletta live (0)
+        </button>
+        <button class="btn" id="btn-stage-mode" title="Modalità Palco: Alto contrasto per leggio o microfono">
+          ⚡ Stage Mode
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero-banner">
+    <img src="assets/banner.jpg" alt="The Ancient Mariners Live Banner">
+    <div class="hero-overlay">
+      <h1>CHORDS & TABS ARCHIVE</h1>
+      <p>Testi, accordi, tabulati e strumenti live per il repertorio Iron Maiden</p>
+    </div>
+  </section>
+
+  <!-- Search & Filter Container -->
+  <section class="search-container">
+    <div class="search-box-wrapper">
+      <div class="search-input-group">
+        <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="search-input" class="search-input" placeholder="Cerca canzone, album, tonalità o testo... (Premi '/' per cercare)" aria-label="Cerca brano">
+      </div>
+
+      <div class="filter-pills" id="filter-pills">
+        <!-- Filter pills dynamically rendered by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="app-container">
+    
+    <!-- Song Cards Grid View -->
+    <div class="song-grid" id="song-grid">
+      <!-- Song cards populated by JS -->
+    </div>
+
+    <!-- Song Detail Viewer View -->
+    <article class="song-viewer" id="song-viewer">
+      
+      <div class="viewer-nav">
+        <button class="btn" id="btn-back">
+          ← Torna al Catalogo
+        </button>
+
+        <div style="display: flex; gap: 0.5rem;">
+          <button class="btn" id="btn-toggle-favorite">
+            ☆ Aggiungi a Scaletta
+          </button>
+        </div>
+      </div>
+
+      <!-- Live Performance Toolbar -->
+      <div class="live-toolbar">
+        <div class="toolbar-group">
+          <span class="toolbar-label">Tonalità:</span>
+          <div class="transpose-controls">
+            <button class="transpose-btn" id="btn-transpose-minus" title="Abbassa di 1 semitono">-</button>
+            <span class="transpose-value" id="transpose-value">0</span>
+            <button class="transpose-btn" id="btn-transpose-plus" title="Alza di 1 semitono">+</button>
+          </div>
+          <button class="btn" id="btn-transpose-reset" style="padding: 0.4rem 0.6rem; font-size: 0.8rem;">Reset</button>
+        </div>
+
+        <div class="toolbar-group">
+          <button class="btn" id="btn-scroll-toggle">
+            <span>▶ Auto-Scroll</span>
+          </button>
+          <span class="toolbar-label" style="margin-left: 0.5rem;">Velocità:</span>
+          <input type="range" id="scroll-speed" class="scroll-speed-slider" min="1" max="10" value="2" title="Regola velocità scorrimento">
+        </div>
+      </div>
+
+      <!-- Song Metadata Header -->
+      <div class="viewer-header-info">
+        <h2 id="viewer-title">Rime of the Ancient Mariner</h2>
+        <div class="viewer-meta-row">
+          <div class="viewer-meta-item">
+            <span>💿 Album:</span>
+            <strong id="viewer-album">Powerslave (1984)</strong>
+          </div>
+          <div class="viewer-meta-item">
+            <span>🎸 Accordatura:</span>
+            <strong id="viewer-tuning">E Standard</strong>
+          </div>
+          <div class="viewer-meta-item">
+            <span>🎵 Tonalità Orig:</span>
+            <strong id="viewer-key">Em</strong>
+          </div>
+          <div class="viewer-meta-item">
+            <span>⏱️ Tempo:</span>
+            <strong id="viewer-bpm">142 BPM</strong>
+          </div>
+        </div>
+      </div>
+
+      <!-- Song Content formatted -->
+      <div class="song-content-wrapper" style="margin-top: 1.5rem;">
+        <div class="song-lyrics-formatted" id="viewer-content">
+          <!-- Transposed & Formatted Lyrics/Tabs injected here -->
+        </div>
+      </div>
+
+    </article>
+
+  </main>
+
+  <!-- Chord Fingering Popover Tooltip -->
+  <div class="chord-popover" id="chord-popover"></div>
+
+  <!-- Setlist Manager Modal -->
+  <div class="modal-backdrop" id="modal-setlist">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>📋 Scaletta Concerto Live</h3>
+        <button class="btn btn-icon" id="btn-close-modal" style="border: none; background: transparent; font-size: 1.2rem;">✕</button>
+      </div>
+      <div class="modal-body" id="setlist-container">
+        <!-- Setlist songs list -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <p><strong>The Ancient Mariners</strong> — Iron Maiden Tribute Band Web App</p>
+    <p style="font-size: 0.8rem; margin-top: 0.4rem; color: var(--text-muted);">
+      Ottimizzato per Smartphone, Tablet e PC | Pronto per <a href="https://render.com" target="_blank" class="footer-link">Render.com</a>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/songs-data.js"></script>
+  <script src="js/transposer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
