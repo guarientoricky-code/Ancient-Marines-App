@@ -1,6 +1,6 @@
 /**
  * The Ancient Mariners - Iron Maiden Songs Database
- * Complete lyrics, chords, tabs, tuning & musical metadata
+ * Complete lyrics, chords, tabs, tuning, musical metadata & YouTube Audio Links
  */
 
 const SONGS_DATABASE = [
@@ -17,6 +17,8 @@ const SONGS_DATABASE = [
     difficulty: "Advanced",
     type: "Chords & Iconic Riff Tabs",
     isBandPriority: true,
+    youtubeId: "X4bgXH3sJ2Q", // Official Audio/Video
+    youtubeEbSearch: "Iron+Maiden+The+Trooper+Live+Eb+tuning",
     summary: "Classic heavy metal anthem with custom performance lyrics for The Ancient Mariners.",
     content: `[Iconic Main Guitar Riff]
 [TAB]
@@ -93,6 +95,8 @@ E|-------------------|-------------------|-------------------|------------------
     difficulty: "Intermediate",
     type: "Chords & Open String Intro Tab",
     isBandPriority: true,
+    youtubeId: "cOVzXYEU3Bk",
+    youtubeEbSearch: "Iron+Maiden+Wasted+Years+Live+Eb+tuning",
     summary: "Adrian Smith masterpiece featuring the iconic open E string tapping/picking intro.",
     content: `[Iconic Adrian Smith Intro Riff]
 [TAB]
@@ -151,6 +155,8 @@ E|---------------------------------------------------------------|
     difficulty: "Advanced",
     type: "Chords & Bass Intro Tab",
     isBandPriority: true,
+    youtubeId: "V394y0h_s7Q",
+    youtubeEbSearch: "Iron+Maiden+Killers+Live+lower+key",
     summary: "Aggressive early Maiden classic driven by Steve Harris harmonics and Paul Di'Anno scream intro.",
     content: `[Steve Harris Bass Harmonics Intro]
 [TAB]
@@ -200,6 +206,8 @@ E|----------------------------|----------------------------|
     difficulty: "Advanced",
     type: "Chords & High-Speed Gallop",
     isBandPriority: true,
+    youtubeId: "c-o-w6F_y44",
+    youtubeEbSearch: "Iron+Maiden+Invaders+backing+track+lower+key",
     summary: "Opening track of The Number of the Beast describing Viking raids.",
     content: `[Intro Fast Riff]
 [Em] [C] [D] [Em]
@@ -253,6 +261,8 @@ E|----------------------------|----------------------------|
     difficulty: "Expert",
     type: "Chords & Progressive Metal Tabs",
     isBandPriority: true,
+    youtubeId: "p32b5756k0g",
+    youtubeEbSearch: "Iron+Maiden+Phantom+of+the+opera+Live+Eb+tuning",
     summary: "Early Maiden progressive heavy metal masterpiece with intricate bass and guitar arpeggios.",
     content: `[Fast Intro Arpeggio Riff]
 [TAB]
@@ -300,6 +310,8 @@ E|----------------------------------------------------|
     difficulty: "Advanced",
     type: "Chords & Twin Harmony Intro Tab",
     isBandPriority: true,
+    youtubeId: "8R-sZ6uVf3Q",
+    youtubeEbSearch: "Iron+Maiden+Flash+of+the+blade+lower+key",
     summary: "Swordsmanship and fencing duel anthem with brilliant twin guitar counterpoint riffs.",
     content: `[Twin Guitar Harmony Riff]
 [TAB]
@@ -347,6 +359,8 @@ E|-----------------------------------|-----------------------------------|
     difficulty: "Expert",
     type: "Chords & Progressive Clean Intro",
     isBandPriority: true,
+    youtubeId: "M9hJ-k6J_tQ",
+    youtubeEbSearch: "Iron+Maiden+Infinite+dreams+Live+Eb+tuning",
     summary: "Complex progressive epic exploring nightmares, paralysis and the afterlife.",
     content: `[Clean Atmosphere Intro]
 [Em] [D] [C] [D]
@@ -397,6 +411,8 @@ E|-----------------------------------|-----------------------------------|
     difficulty: "Advanced",
     type: "Full Chords & Solos Riffs",
     isBandPriority: true,
+    youtubeId: "G3LVblH5WJJ",
+    youtubeEbSearch: "Iron+Maiden+Hallowed+be+thy+name+Live+Eb+tuning",
     summary: "Widely regarded as one of the greatest heavy metal compositions ever written.",
     content: `[Slow Bells & Clean Intro]
 [Em]I'm waiting in my cold cell when the [D]bell begins to chime
@@ -470,6 +486,8 @@ E|----------------------------------|----------------------------------|
     difficulty: "Intermediate",
     type: "Chords & Gang Vocal Riff",
     isBandPriority: true,
+    youtubeId: "e6Q8V30W_u4",
+    youtubeEbSearch: "Iron+Maiden+Die+with+your+boots+on+Live+Eb+tuning",
     summary: "Defiant anthem encouraging living life to the fullest until the end.",
     content: `[Main Heavy Driving Riff]
 [A5] [G5] [D5] [A5]
@@ -493,133 +511,9 @@ If you're gonna [A5]die, [G5]die with your [D5]boots on!
 If you're gonna [A5]die, [G5]die with your [D5]boots on!
 [A5]Die with your boots on!
 
-[Verse 3]
-[A5]They bring despair, they bring misery
-[G5]Pointing their fingers at [D5]you and me
-[A5]Stand your ground, don't bow your head
-[G5]Fight till the last drop of [D5]blood is shed!
-
-[Chorus]
-If you're gonna [A5]die, [G5]die with your [D5]boots on!
-If you're gonna [A5]die, [G5]die with your [D5]boots on!
-If you're gonna [A5]die, [G5]die with your [D5]boots on!
-[A5]Die with your boots on!
-
-[Guitar Solos Rhythm]
-[A5] [G5] [D5] [A5]
-[E5] [D5] [C5] [D5]
-
 [Outro]
 [A5]Die with your boots on!
 [A5] [G5] [D5] [A5]`
-  },
-
-  /* ==========================================================================
-     ADDITIONAL IRON MAIDEN CLASSICS
-     ========================================================================== */
-  {
-    id: "rime-of-the-ancient-mariner",
-    title: "Rime of the Ancient Mariner",
-    album: "Powerslave (1984)",
-    tuning: "E Standard (E A D G B E)",
-    key: "Em",
-    bpm: 142,
-    difficulty: "Advanced",
-    type: "Chords & Full Tabs",
-    summary: "The epic 13-minute masterpiece based on Samuel Taylor Coleridge's poem.",
-    content: `[Intro Riff - Twin Guitar Harmony]
-[TAB]
-e|-----------------------------------|-----------------------------------|
-B|-----------------------------------|-----------------------------------|
-G|-------9---7~------9---7~----------|-------9---7~------9---7~----------|
-D|---7-9---9-----7-9---9---9-7-------|---7-9---9-----7-9---9---9-7-------|
-A|-7-----------7---------------10-9--|-7-----------7---------------10-9--|
-E|-----------------------------------|-----------------------------------|
-[/TAB]
-
-[Verse 1]
-[Em]Hear the rime of the Ancient Mariner
-[C]See his eye as he [D]stops one of three
-[Em]Mesmerised by the party guest
-[C]Listen his voice as the [D]tale he tells
-
-[Chorus]
-[G]And the ship sailed [D]on, back to the [Em]north
-Through the [C]fog and ice and the [D]albatross follows [Em]on
-[G]The mariner [D]kills the bird of [Em]good omen
-[C]His shipmates cry out [D]at his terrible [Em]deed
-
-[Outro]
-[Em]The Mariner hath [C]his redemption
-[D]And his tale is [Em]told! [Em]`
-  },
-  {
-    id: "fear-of-the-dark",
-    title: "Fear of the Dark",
-    album: "Fear of the Dark (1992)",
-    tuning: "E Standard (E A D G B E)",
-    key: "Dm",
-    bpm: 146,
-    difficulty: "Intermediate",
-    type: "Chords & Melodic Intro Tabs",
-    summary: "Live stadium chant powerhouse with memorable twin melody intro.",
-    content: `[Clean Intro Melody Riff]
-[TAB]
-e|---10-8-10-8-10-8-10-8---8-6-8-6-8-6-8-6---6-5-6-5-6-5-6-5---5---5---8-6-5---|
-B|-7---------------------6-----------------5-----------------5---6----------6-|
-G|----------------------------------------------------------------------------|
-D|----------------------------------------------------------------------------|
-A|----------------------------------------------------------------------------|
-E|----------------------------------------------------------------------------|
-[/TAB]
-
-[Chorus]
-[Dm]Fear of the dark, [Bb]fear of the dark
-[C]I have a constant fear that something's [Dm]always near
-[Dm]Fear of the dark, [Bb]fear of the dark
-[C]I have a phobia that someone's [Dm]always there`
-  },
-  {
-    id: "run-to-the-hills",
-    title: "Run to the Hills",
-    album: "The Number of the Beast (1982)",
-    tuning: "E Standard (E A D G B E)",
-    key: "G / Em",
-    bpm: 174,
-    difficulty: "Advanced",
-    type: "Chords & Bass Gallop Tabs",
-    summary: "High-speed classic driven by Clive Burr's iconic drum intro and Steve Harris bassline.",
-    content: `[Chorus]
-[G]Run to the [F]hills, [C]run for your [D]lives!
-[G]Run to the [F]hills, [C]run for your [D]lives!`
-  },
-  {
-    id: "the-number-of-the-beast",
-    title: "The Number of the Beast",
-    album: "The Number of the Beast (1982)",
-    tuning: "E Standard (E A D G B E)",
-    key: "D / E",
-    bpm: 154,
-    difficulty: "Advanced",
-    type: "Chords & Intro Spoken Tabs",
-    summary: "Featuring Bruce Dickinson's legendary high-pitched scream after the Vincent Price spoken intro.",
-    content: `[Chorus]
-[E]666, the [C]number of the [D]beast!
-[E]Hell and fire was [C]spawned to be re[D]leased!`
-  },
-  {
-    id: "aces-high",
-    title: "Aces High",
-    album: "Powerslave (1984)",
-    tuning: "E Standard (E A D G B E)",
-    key: "Em / Fm",
-    bpm: 180,
-    difficulty: "Expert",
-    type: "Chords & High-Speed Gallop Tabs",
-    summary: "Adrenaline-fueled WWII Battle of Britain fighter pilot anthem.",
-    content: `[Chorus]
-[Em]Run, live to fly, fly to live, do or die!
-[C]Won't you run, live to fly, [D]fly to live, [Em]Aces high!`
   }
 ];
 

@@ -15,6 +15,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const searchInputEl = document.getElementById('search-input');
   const filterPillsEl = document.getElementById('filter-pills');
   
+  // YouTube Elements
+  const linkYtOriginal = document.getElementById('link-yt-original');
+  const linkYtEb = document.getElementById('link-yt-eb');
+  const btnYtEmbed = document.getElementById('btn-yt-embed');
+  const ytEmbedContainer = document.getElementById('youtube-embed-container');
+  const ytIframe = document.getElementById('youtube-iframe');
+  
+  // Transpose Hint Elements
+  const transposeHintBadge = document.getElementById('transpose-hint-badge');
+  const transposeHintText = document.getElementById('transpose-hint-text');
+
   // Controls
   const btnBackEl = document.getElementById('btn-back');
   const btnTransposeMinus = document.getElementById('btn-transpose-minus');
@@ -121,6 +132,18 @@ document.addEventListener('DOMContentLoaded', () => {
     songKeyEl.textContent = song.key;
     songBpmEl.textContent = `${song.bpm} BPM`;
 
+    // Setup YouTube links
+    const originalYtQuery = encodeURIComponent(`Iron Maiden ${song.title} official audio`);
+    const ebYtQuery = song.youtubeEbSearch || encodeURIComponent(`Iron Maiden ${song.title} Live Eb tuning lower key`);
+
+    linkYtOriginal.href = song.youtubeId ? `https://www.youtube.com/watch?v=${song.youtubeId}` : `https://www.youtube.com/results?search_query=${originalYtQuery}`;
+    linkYtEb.href = `https://www.youtube.com/results?search_query=${ebYtQuery}`;
+
+    // Reset YouTube embed
+    ytEmbedContainer.style.display = 'none';
+    ytIframe.src = '';
+    btnYtEmbed.innerHTML = '📺 Player Integrato';
+
     renderSongContent();
 
     // Toggle Views
@@ -140,6 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function closeSongViewer() {
     stopAutoScroll();
+    ytIframe.src = ''; // Stop video playback
     songViewerEl.classList.remove('active');
     document.querySelector('.search-container').style.display = 'block';
     document.querySelector('.hero-banner').style.display = 'block';
@@ -226,6 +250,19 @@ document.addEventListener('DOMContentLoaded', () => {
   function updateTransposeUI() {
     const sign = currentSemitones > 0 ? '+' : '';
     transposeValueEl.textContent = `${sign}${currentSemitones}`;
+
+    if (currentSemitones === 0) {
+      transposeHintBadge.style.display = 'none';
+    } else {
+      transposeHintBadge.style.display = 'block';
+      if (currentSemitones === -1) {
+        transposeHintText.textContent = '-1 Semitono (Accordatura Eb - Mezzo tono sotto / Ideale per il Live e per la Voce)';
+      } else if (currentSemitones === -2) {
+        transposeHintText.textContent = '-2 Semitoni (Accordatura D Standard - 1 Tono sotto)';
+      } else {
+        transposeHintText.textContent = `${sign}${currentSemitones} Semitoni`;
+      }
+    }
   }
 
   // Auto-scroll Engine
@@ -358,6 +395,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function setupEventListeners() {
+    // YouTube embed toggle
+    btnYtEmbed.addEventListener('click', () => {
+      if (!currentSong) return;
+      const isVisible = ytEmbedContainer.style.display === 'block';
+
+      if (isVisible) {
+        ytEmbedContainer.style.display = 'none';
+        ytIframe.src = '';
+        btnYtEmbed.innerHTML = '📺 Player Integrato';
+      } else {
+        ytEmbedContainer.style.display = 'block';
+        const embedId = currentSong.youtubeId || 'X4bgXH3sJ2Q';
+        ytIframe.src = `https://www.youtube.com/embed/${embedId}?autoplay=1`;
+        btnYtEmbed.innerHTML = '✕ Chiudi Player';
+      }
+    });
+
     // Search input
     searchInputEl.addEventListener('input', handleSearchAndFilter);
 

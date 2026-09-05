@@ -83,7 +83,7 @@
           ← Torna al Catalogo
         </button>
 
-        <div style="display: flex; gap: 0.5rem;">
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
           <button class="btn" id="btn-toggle-favorite">
             ☆ Aggiungi a Scaletta
           </button>
@@ -113,11 +113,11 @@
 
       <!-- Song Metadata Header -->
       <div class="viewer-header-info">
-        <h2 id="viewer-title">Rime of the Ancient Mariner</h2>
+        <h2 id="viewer-title">The Trooper</h2>
         <div class="viewer-meta-row">
           <div class="viewer-meta-item">
             <span>💿 Album:</span>
-            <strong id="viewer-album">Powerslave (1984)</strong>
+            <strong id="viewer-album">Piece of Mind (1983)</strong>
           </div>
           <div class="viewer-meta-item">
             <span>🎸 Accordatura:</span>
@@ -129,13 +129,37 @@
           </div>
           <div class="viewer-meta-item">
             <span>⏱️ Tempo:</span>
-            <strong id="viewer-bpm">142 BPM</strong>
+            <strong id="viewer-bpm">160 BPM</strong>
           </div>
+        </div>
+
+        <!-- YouTube Audio Links Section -->
+        <div class="youtube-actions-bar" style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center;">
+          <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">🎧 Ascolta Audio:</span>
+          <a id="link-yt-original" href="#" target="_blank" class="btn" style="background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.4); color: var(--accent-crimson-bright); text-decoration: none;">
+            🔴 Originale YouTube
+          </a>
+          <a id="link-yt-eb" href="#" target="_blank" class="btn" style="background: rgba(245, 158, 11, 0.15); border-color: rgba(245, 158, 11, 0.4); color: var(--text-gold-bright); text-decoration: none;">
+            🎸 Tonalità Abbassata (Eb / Live)
+          </a>
+          <button id="btn-yt-embed" class="btn" style="background: var(--bg-hover);">
+            📺 Player Integrato
+          </button>
+        </div>
+
+        <!-- Embedded YouTube Video Container -->
+        <div id="youtube-embed-container" style="display: none; margin-top: 1rem; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+          <iframe id="youtube-iframe" style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <!-- Transpose Hint Badge -->
+        <div id="transpose-hint-badge" style="display: none; margin-top: 0.85rem; background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.4); color: var(--text-gold-bright); padding: 0.5rem 0.85rem; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 600;">
+          💡 Tonalità impostata: <span id="transpose-hint-text"></span>
         </div>
       </div>
 
       <!-- Song Content formatted -->
-      <div class="song-content-wrapper" style="margin-top: 1.5rem;">
+      <div class="song-content-wrapper" style="margin-top: 1.25rem;">
         <div class="song-lyrics-formatted" id="viewer-content">
           <!-- Transposed & Formatted Lyrics/Tabs injected here -->
         </div>
