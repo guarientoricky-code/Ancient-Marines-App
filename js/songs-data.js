@@ -551,12 +551,12 @@ For the [D]feel of the steel
 [Em]I'm waiting in my cold cell when the [D]bell begins to chime
 [C]Reflecting on my past life and it [Bm]doesn't have much time
 [Em]'Cause at 5 o'clock, they take me to the [D]Gallows Pole
-[C]The sands of time for me are running [Bm]low...
+[C]The sands of time for me are running [Bm]low
+[Em]Running low, yeah!
 
 [Em]When the priest comes to read me the [D]last rites
-[C]I take a look through the bars at the [Bm]night
-[Em]Heretics watching the clock ticking [D]down
-[C]Counting the minutes left for me to [Bm]drown
+[C]Take a look through the bars at the [Bm]last sights
+[Em]Of a world that has gone very [D]wrong for me [C] [Bm]
 
 [Fast Heavy Gallop Riff]
 [TAB]
@@ -572,29 +572,26 @@ E|-----------------------------------|-----------------------------------|
 [Em]Can it be that there's some sort of [C]error?
 [D]Hard to stop the surmounting terror
 [Em]Is it really the end, not some [C]crazy dream?
-[D]Somebody tell me that I'm dreaming!
+[D]Somebody, please tell me that I'm dreaming
 
 [Verse 2]
-[Em]Somebody please tell me that I'm [C]dreaming!
-[D]It's not easy to stop from screaming
-[Em]Words escape me when I try to [C]speak
-[D]Tears fall down but why am I crying?
-
-[Chorus]
-[C]Hallowed [D]be thy [Em]name!
-[C]Hallowed [D]be thy [Em]name!
+[Em]It's not easy to stop from [C]screaming
+[D]The words escape me when I try to speak
+[Em]Tears flow, but why am I [C]crying?
+[D]After all, I'm not afraid of dying
+[Em]Don't I believe that there [C]never is an end?
 
 [Verse 3]
-[Em]Tears fall down, but why am I [C]crying?
-[D]Not afraid of dying, but I'm lying
-[Em]Is there a soul beyond the grave, [C]where do I go?
-[D]Mark my words, my soul will live on!
+[Em]As the guards march me out to the [C]courtyard
+[D]Somebody cries from a cell, "God be with you"
+[Em]If there's a God, why has he [C]let me go?
 
-[Chorus]
-[C]Hallowed [D]be thy [Em]name!
-[C]Hallowed [D]be thy [Em]name!
+[Verse 4]
+[Em]As I walk, my life drifts be[C]fore me
+[D]Though the end is near I'm not sorry
+[Em]Catch my soul, it's willing to [C]fly away
 
-[Epic Twin Guitar Harmony Solo]
+[Fast Solos Section]
 [TAB]
 e|-15-14-12----15-14-12----15-14-12-|-14-12-10----14-12-10----14-12-10-|
 B|----------15----------15----------|----------13----------13----------|
@@ -603,11 +600,21 @@ D|----------------------------------|----------------------------------|
 A|----------------------------------|----------------------------------|
 E|----------------------------------|----------------------------------|
 [/TAB]
-
-[Fast Outro Section]
 [Em] [C] [D] [Em]
-[Em]Yeah, yeah, yeah! Hallowed be thy name!
-[Em] [D] [C] [D] [Em]`
+[Em] [C] [D] [Em]
+
+[Outro Verse]
+[Em]Mark my words, believe my soul lives [C]on
+[D]Don't worry now that I have gone
+[Em]I've gone beyond to seek the [C]truth
+[D]When you know that your time is close at hand
+[Em]Maybe then you'll begin to under[C]stand
+[D]Life down here is just a strange illusion
+
+[Outro Chorus]
+[C]Yeah-yeah-yeah, [D]hallowed be thy [Em]name
+[C]Yeah-yeah-yeah, [D]hallowed by thy [Em]name
+[Em]Yeah!`
   },
   {
     id: "die-with-your-boots-on",
