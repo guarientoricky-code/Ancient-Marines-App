@@ -394,7 +394,7 @@ Oh, oh, yeah!
     youtubeId: "8R-sZ6uVf3Q", // Studio Original
     youtubeCId: "nh-EbVdCohM", // Band C Tuning Track
     youtubeCLink: "https://youtu.be/nh-EbVdCohM",
-    summary: "Swordsmanship and fencing duel anthem with brilliant twin guitar counterpoint riffs.",
+    summary: "Swordsmanship and fencing duel anthem with custom performance lyrics for The Ancient Mariners.",
     content: `[Twin Guitar Harmony Riff]
 [TAB]
 e|-----------------------------------|-----------------------------------|
@@ -406,29 +406,53 @@ E|-----------------------------------|-----------------------------------|
 [/TAB]
 
 [Verse 1]
-[Em]As a young boy, chasing dragons in the snow
-[C]Learning how to fight, learning [D]how to grow
-[Em]Mastering the sword, precision in his eyes
-[C]Preparing for the day when his [D]family dies
-
-[Verse 2]
-[Em]One day the dragon comes, slaughter in the night
-[C]Blood upon the snow, in the [D]pale moonlight
-[Em]He swore an oath of vengeance, weapon in his hand
-[C]The finest swordsman in the [D]land!
+[Em]As a young boy chasing dragons
+[C]With your wooden sword so [D]mighty
+[Em]You're St. George or you're David and you always killed the beast
+[Em]Times change very quickly and you had to grow up early
+[C]A house in smoking ruins and the [D]bodies at your feet
 
 [Chorus]
-[G]You'll die as you lived, in a [D]flash of the blade!
-[Em]In a corner forgotten, by a [C]trick of the [D]trade!
-[G]You'll die as you lived, in a [D]flash of the blade!
-[Em]In a corner forgotten, by a [C]trick of the [D]trade!
+[G]You'll die as you lived
+In a [D]flash of the blade
+[Em]In a corner forgotten by [C]no one
+[G]You lived for the touch
+For the [D]feel of the steel
+[Em]One man and his [C]honor
+
+[Verse 2]
+[Em]The smell of resined leather, the steely iron mask
+[C]As you cut and thrust and parried at the [D]fencing master's call
+[Em]He taught you all he ever knew, to fear no mortal man
+[C]And now you'll wreak your vengeance in the [D]screams of evil man
+
+[Chorus]
+[G]You'll die as you lived
+In a [D]flash of the blade
+[Em]In a corner forgotten by [C]no one
+[G]You lived for the touch
+For the [D]feel of the steel
+[Em]One man and his [C]honor
 
 [Guitar Solo Rhythm]
 [Em] [C] [D] [Em]
 [G] [D] [Em] [C] [D]
 
-[Outro]
-[Em]Flash of the blade! Flash of the blade!
+[Chorus]
+[G]You'll die as you lived
+In a [D]flash of the blade
+[Em]In a corner forgotten by [C]no one
+[G]You lived for the touch
+For the [D]feel of the steel
+[Em]One man and his [C]honor
+
+[Chorus / Outro]
+[G]You'll die as you lived
+In a [D]flash of the blade
+[Em]In a corner forgotten by [C]no one
+[G]You lived for the touch
+For the [D]feel of the steel
+[Em]One man and his [C]honor
 [Em] [C] [D] [Em]`
   },
   {
