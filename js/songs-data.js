@@ -1,11 +1,11 @@
 /**
  * The Ancient Mariners - Iron Maiden Songs Database
- * Complete lyrics, chords, tabs, tuning, musical metadata & YouTube Audio Links
+ * Complete lyrics, chords, tabs, tuning, musical metadata & Exact C-Tuning YouTube Videos
  */
 
 const SONGS_DATABASE = [
   /* ==========================================================================
-     PRIORITY BAND SETLIST SONGS
+     PRIORITY BAND SETLIST SONGS (WITH EXACT C-TUNING YOUTUBE TRACKS)
      ========================================================================== */
   {
     id: "the-trooper",
@@ -17,8 +17,9 @@ const SONGS_DATABASE = [
     difficulty: "Advanced",
     type: "Chords & Iconic Riff Tabs",
     isBandPriority: true,
-    youtubeId: "X4bgXH3sJ2Q", // Official Audio/Video
-    youtubeEbSearch: "Iron+Maiden+The+Trooper+Live+Eb+tuning",
+    youtubeId: "X4bgXH3sJ2Q", // Studio Original
+    youtubeCId: "fMS63sq13EA", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/fMS63sq13EA",
     summary: "Classic heavy metal anthem with custom performance lyrics for The Ancient Mariners.",
     content: `[Iconic Main Guitar Riff]
 [TAB]
@@ -95,8 +96,9 @@ E|-------------------|-------------------|-------------------|------------------
     difficulty: "Intermediate",
     type: "Chords & Open String Intro Tab",
     isBandPriority: true,
-    youtubeId: "cOVzXYEU3Bk",
-    youtubeEbSearch: "Iron+Maiden+Wasted+Years+Live+Eb+tuning",
+    youtubeId: "cOVzXYEU3Bk", // Studio Original
+    youtubeCId: "NOtPpxJQJk0", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/NOtPpxJQJk0",
     summary: "Adrian Smith masterpiece featuring the iconic open E string tapping/picking intro.",
     content: `[Iconic Adrian Smith Intro Riff]
 [TAB]
@@ -155,8 +157,9 @@ E|---------------------------------------------------------------|
     difficulty: "Advanced",
     type: "Chords & Bass Intro Tab",
     isBandPriority: true,
-    youtubeId: "V394y0h_s7Q",
-    youtubeEbSearch: "Iron+Maiden+Killers+Live+lower+key",
+    youtubeId: "V394y0h_s7Q", // Studio Original
+    youtubeCId: "g3iS40QpD1c", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/g3iS40QpD1c",
     summary: "Aggressive early Maiden classic driven by Steve Harris harmonics and Paul Di'Anno scream intro.",
     content: `[Steve Harris Bass Harmonics Intro]
 [TAB]
@@ -206,8 +209,9 @@ E|----------------------------|----------------------------|
     difficulty: "Advanced",
     type: "Chords & High-Speed Gallop",
     isBandPriority: true,
-    youtubeId: "c-o-w6F_y44",
-    youtubeEbSearch: "Iron+Maiden+Invaders+backing+track+lower+key",
+    youtubeId: "c-o-w6F_y44", // Studio Original
+    youtubeCId: "1eC8W6vxcPo", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/1eC8W6vxcPo",
     summary: "Opening track of The Number of the Beast describing Viking raids.",
     content: `[Intro Fast Riff]
 [Em] [C] [D] [Em]
@@ -261,8 +265,9 @@ E|----------------------------|----------------------------|
     difficulty: "Expert",
     type: "Chords & Progressive Metal Tabs",
     isBandPriority: true,
-    youtubeId: "p32b5756k0g",
-    youtubeEbSearch: "Iron+Maiden+Phantom+of+the+opera+Live+Eb+tuning",
+    youtubeId: "p32b5756k0g", // Studio Original
+    youtubeCId: "fJEJyxYIKPs", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/fJEJyxYIKPs",
     summary: "Early Maiden progressive heavy metal masterpiece with intricate bass and guitar arpeggios.",
     content: `[Fast Intro Arpeggio Riff]
 [TAB]
@@ -310,8 +315,9 @@ E|----------------------------------------------------|
     difficulty: "Advanced",
     type: "Chords & Twin Harmony Intro Tab",
     isBandPriority: true,
-    youtubeId: "8R-sZ6uVf3Q",
-    youtubeEbSearch: "Iron+Maiden+Flash+of+the+blade+lower+key",
+    youtubeId: "8R-sZ6uVf3Q", // Studio Original
+    youtubeCId: "nh-EbVdCohM", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/nh-EbVdCohM",
     summary: "Swordsmanship and fencing duel anthem with brilliant twin guitar counterpoint riffs.",
     content: `[Twin Guitar Harmony Riff]
 [TAB]
@@ -359,8 +365,9 @@ E|-----------------------------------|-----------------------------------|
     difficulty: "Expert",
     type: "Chords & Progressive Clean Intro",
     isBandPriority: true,
-    youtubeId: "M9hJ-k6J_tQ",
-    youtubeEbSearch: "Iron+Maiden+Infinite+dreams+Live+Eb+tuning",
+    youtubeId: "M9hJ-k6J_tQ", // Studio Original
+    youtubeCId: "mgPUMp_zYOM", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/mgPUMp_zYOM",
     summary: "Complex progressive epic exploring nightmares, paralysis and the afterlife.",
     content: `[Clean Atmosphere Intro]
 [Em] [D] [C] [D]
@@ -411,8 +418,9 @@ E|-----------------------------------|-----------------------------------|
     difficulty: "Advanced",
     type: "Full Chords & Solos Riffs",
     isBandPriority: true,
-    youtubeId: "G3LVblH5WJJ",
-    youtubeEbSearch: "Iron+Maiden+Hallowed+be+thy+name+Live+Eb+tuning",
+    youtubeId: "G3LVblH5WJJ", // Studio Original
+    youtubeCId: "jRbQHCivnY4", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/jRbQHCivnY4",
     summary: "Widely regarded as one of the greatest heavy metal compositions ever written.",
     content: `[Slow Bells & Clean Intro]
 [Em]I'm waiting in my cold cell when the [D]bell begins to chime
@@ -486,8 +494,9 @@ E|----------------------------------|----------------------------------|
     difficulty: "Intermediate",
     type: "Chords & Gang Vocal Riff",
     isBandPriority: true,
-    youtubeId: "e6Q8V30W_u4",
-    youtubeEbSearch: "Iron+Maiden+Die+with+your+boots+on+Live+Eb+tuning",
+    youtubeId: "e6Q8V30W_u4", // Studio Original
+    youtubeCId: "iwxZWdDS-HI", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/iwxZWdDS-HI",
     summary: "Defiant anthem encouraging living life to the fullest until the end.",
     content: `[Main Heavy Driving Riff]
 [A5] [G5] [D5] [A5]

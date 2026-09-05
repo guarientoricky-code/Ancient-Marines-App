@@ -134,8 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
     songBpmEl.textContent = `${song.bpm} BPM`;
 
     // Setup YouTube external link
-    const cTuningYtQuery = encodeURIComponent(`Iron Maiden ${song.title} C tuning backing track lower key 4 semitones`);
-    linkYtExternal.href = `https://www.youtube.com/results?search_query=${cTuningYtQuery}`;
+    linkYtExternal.href = song.youtubeCLink || `https://www.youtube.com/results?search_query=${encodeURIComponent(`Iron Maiden ${song.title} C tuning`)}`;
 
     // Reset YouTube embed
     ytEmbedWrapper.style.display = 'none';
@@ -391,15 +390,14 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function setupEventListeners() {
-    // Player Audio in C Tuning (-4 semitoni)
+    // Player Audio in C Tuning (Esatti video forniti dalla band)
     btnYtEmbedC.addEventListener('click', () => {
       if (!currentSong) return;
       ytEmbedWrapper.style.display = 'block';
-      ytPlayerStatusTitle.textContent = `🎸 Player Audio Pitch-Shifted in DO (C Tuning: -4 Semitoni) — ${currentSong.title}`;
+      ytPlayerStatusTitle.textContent = `🎸 Player Audio in DO (C Tuning) — ${currentSong.title}`;
       
-      // Load YouTube pitch-shifted backing track / C tuning version
-      const cQuery = encodeURIComponent(`Iron Maiden ${currentSong.title} C tuning backing track lower key`);
-      ytIframe.src = `https://www.youtube.com/embed?listType=search&list=${cQuery}&autoplay=1`;
+      const cVideoId = currentSong.youtubeCId || 'fMS63sq13EA';
+      ytIframe.src = `https://www.youtube.com/embed/${cVideoId}?autoplay=1`;
       
       ytEmbedWrapper.scrollIntoView({ behavior: 'smooth' });
     });
