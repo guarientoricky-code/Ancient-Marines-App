@@ -254,47 +254,62 @@ E|----------------------------|----------------------------|
     youtubeId: "c-o-w6F_y44", // Studio Original
     youtubeCId: "1eC8W6vxcPo", // Band C Tuning Track
     youtubeCLink: "https://youtu.be/1eC8W6vxcPo",
-    summary: "Opening track of The Number of the Beast describing Viking raids.",
+    summary: "Opening track of The Number of the Beast with custom performance lyrics for The Ancient Mariners.",
     content: `[Intro Fast Riff]
 [Em] [C] [D] [Em]
 [Em] [C] [D] [Em]
 
 [Verse 1]
-[Em]Longships are coming, the sea's running red
-[C]The Viking invaders are [D]raising the dead
-[Em]Axes are gleaming, shields in a line
-[C]Fighting to live to the [D]end of all time!
+[Em]Longboats have been sighted, the evidence of war has begun
+[C]Many Nordic fighting men, their [D]swords and shields all gleam in the sun
+[Em]Call to arms defend yourselves, get ready to stand and fight for your lives
+[C]Judgment day has come around, so [D]be prepared don't run, stand your ground
+
+[Pre-Chorus]
+[C]They're coming in from the sea
+[D]They've come the enemy
+[Em]Beneath the blazing sun
+[C]The battle [D]has to be won
+
+[Chorus]
+[Em]Invaders, [C]pillaging! [D]
+[Em]Invaders, [C]looting! [D]
 
 [Verse 2]
-[Em]Fire and slaughter, no mercy or grace
-[C]The blood on the steel as we [D]stand face to face
-[Em]Screaming in agony, battle is won
-[C]Fighting under the [D]midday sun!
+[Em]Set ablaze the campfires, alert the other men from inland
+[C]Warning must be given, there's [D]not enough men here for a stand
+[Em]The Vikings are too many, much too powerful to take on our own
+[C]We must have reinforcements, we [D]cannot fight this battle alone
+
+[Pre-Chorus]
+[C]They're coming over the hill
+[D]They've come to attack
+[Em]They're coming in for the kill
+[C]There's no [D]turning back
 
 [Chorus]
-[Em]Invaders! [C]Pillaging, [D]looting!
-[Em]Invaders! [C]Fighting on the [D]shore!
-[Em]Invaders! [C]Pillaging, [D]looting!
-[Em]Invaders! [C]Rape and [D]war!
-
-[Verse 3]
-[Em]The villagers fleeing, no time to prepare
-[C]The sound of the horns echo [D]free in the air
-[Em]Swords clash together as brothers collide
-[C]Nowhere to run and [D]nowhere to hide!
-
-[Chorus]
-[Em]Invaders! [C]Pillaging, [D]looting!
-[Em]Invaders! [C]Fighting on the [D]shore!
-[Em]Invaders! [C]Pillaging, [D]looting!
-[Em]Invaders! [C]Rape and [D]war!
+[Em]Invaders, [C]fighting! [D]
+[Em]Invaders, [C]marauding! [D]
 
 [Guitar Solo Rhythm]
 [Em] [C] [D] [Em]
 [Em] [C] [D] [Em]
 
-[Outro]
-[Em]Invaders! Invaders!
+[Verse 3]
+[Em]Axes grind and maces clash as wounded fighters fall to the ground
+[C]Severed limbs and fatal woundings, [D]bloody corpses lay all around
+[Em]The smell of death and burning flesh, the battle weary fight to the end
+[C]The Saxons have been overpowered, [D]victims of the mighty Norsemen
+
+[Pre-Chorus]
+[C]You'd better scatter and run
+[D]The battle's lost and not won
+[Em]You'd better get away
+[C]To fight a[D]nother day
+
+[Chorus / Outro]
+[Em]Invaders, [C]raping! [D]
+[Em]Invaders, [C]plundering! [D]
 [Em] [C] [D] [Em]`
   },
   {
