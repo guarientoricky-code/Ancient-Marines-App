@@ -182,7 +182,7 @@ E|---------------------------------------------------------------|
     youtubeId: "V394y0h_s7Q", // Studio Original
     youtubeCId: "g3iS40QpD1c", // Band C Tuning Track
     youtubeCLink: "https://youtu.be/g3iS40QpD1c",
-    summary: "Aggressive early Maiden classic driven by Steve Harris harmonics and Paul Di'Anno scream intro.",
+    summary: "Aggressive early Maiden classic with custom performance lyrics for The Ancient Mariners.",
     content: `[Steve Harris Bass Harmonics Intro]
 [TAB]
 G|-----12-------12-------12---|-----12-------12-------12---|
@@ -191,35 +191,55 @@ A|-7--------7--------7--------|-5--------5--------5--------|
 E|----------------------------|----------------------------|
 [/TAB]
 
-[Intro Heavy Riff]
-[Em] [D] [C] [B5]
-[Em] [D] [C] [B5]
+[Intro Heavy Riff & Screams]
+[Em]Oh, yeah, yeah
+[D]Ow, yeah
+[C]Oh, yeah
+[B5]Ow, yeah, ooh, look out!
 
 [Verse 1]
-[Em]You walk through the subway, his eyes in your back
-[D]A footstep behind you, he's preparing attack
-[C]Scream for mercy, he laughs as he drinks in your [B5]dread
-[Em]Knowledge your life's about to slip away!
+[Em]You walk through the subway, his eyes burn a hole in your back
+[D]A footstep behind you, he lunges, prepared for attack
+[C]"Scream for mercy," he laughs as he's watching you bleed
+[B5]Killer behind you, his bloodlust defies all his needs, ow!
 
 [Verse 2]
-[Em]My blood runs cold as I stand in the dark
-[D]I hear the laughter, a cold wicked spark
-[C]The blade draws near as you fall to your [B5]knees
-[Em]No one can hear as you scream and you plead!
+[Em]My innocent victims are slaughtered with wrath and despise
+[D]A mocking religion of hatred that burns in the night
+[C]I have no one, I'm bound to destroy all this greed
+[B5]A voice inside me compelling to satisfy me, haha, hahahaha!
 
-[Chorus]
-[Em]You're a killer! [D]Cold blooded killer!
-[C]My blood runs cold as I'm [B5]taking your life!
-[Em]You're a killer! [D]Cold blooded killer!
-[C]My blood runs cold as I'm [B5]taking your life!
+[Bridge]
+[C]I can see what a life's meant to be
+[D]You'll never know how I came to foresee-see-see, ow!
 
-[Guitar Solos Rhythm Section]
+[Guitar Solo: Dave Murray]
 [Em] [D] [C] [B5]
 [Em] [D] [C] [B5]
 
-[Outro Riff & Scream]
-[Em]Killers! Killers!
-[Em] [D] [C] [B5] [Em]`
+[Guitar Solo: Adrian Smith]
+[Em] [D] [C] [B5]
+[Em] [D] [C] [B5]
+
+[Verse 3]
+[Em]My faith in believing is stronger than lifelines and ties
+[D]The glimmer of metal, my moment is ready to strike
+[C]The death call arises, a scream breaks the still of the night
+[B5]Another tomorrow, remember to walk in the light
+[Em]I have found you, and now there is no place to run
+[D]Excitement, it shakes me, oh God, help me, what have I done?
+[C]Ooh, yeah, I've done it again, ow! [B5]
+
+[Verse 4]
+[Em]You walk through the subway, my eyes burn a hole in your back
+[D]A footstep behind you, he lunges, prepared for attack
+[C]"Scream for mercy," he laughs as he's watching you bleed
+[B5]Killer behind you, my bloodlust defies all my needs
+[Em]Ooh, look out, I'm coming for you, haha, hahaha, haha!
+
+[Outro]
+[Em] [D] [C] [B5]
+[Em]Ow-ow!`
   },
   {
     id: "invaders",
