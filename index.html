@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Ancient Mariners - Iron Maiden Testi, Accordi & Tabulati</title>
-  <meta name="description" content="Web App per la cover band 'The Ancient Mariners'. Raccoglie tutti i testi con accordi, tabulati di chitarra/basso e strumenti live per i brani degli Iron Maiden in accordatura C Standard.">
+  <meta name="description" content="Web App per la cover band 'The Ancient Mariners'. Raccoglie tutti i testi con accordi originali, tabulati e player audio con pitch-shift in C Tuning.">
 
   <!-- OpenGraph / Social Meta -->
   <meta property="og:title" content="The Ancient Mariners - Iron Maiden Cover Band">
-  <meta property="og:description" content="Testi, accordi, tabulati, trasposizione tonalità C Standard (-4 semitoni) e auto-scroll per suonare live i classici degli Iron Maiden.">
+  <meta property="og:description" content="Testi, accordi originali, tabulati e audio pitch-shifted in C Tuning per suonare live i classici degli Iron Maiden.">
   <meta property="og:image" content="assets/banner.jpg">
 
   <!-- Stylesheet -->
@@ -46,7 +46,7 @@
     <img src="assets/banner.jpg" alt="The Ancient Mariners Live Banner">
     <div class="hero-overlay">
       <h1>CHORDS & TABS ARCHIVE</h1>
-      <p>Testi, accordi in Accordatura C, tabulati e strumenti live per il repertorio Iron Maiden</p>
+      <p>Accordi Originali + Audio Pitch-Shifted in C Tuning per The Ancient Mariners</p>
     </div>
   </section>
 
@@ -93,16 +93,15 @@
       <!-- Live Performance Toolbar -->
       <div class="live-toolbar">
         <div class="toolbar-group">
-          <span class="toolbar-label">Tonalità:</span>
+          <span class="toolbar-label">Trasposizione Accordi:</span>
           <div class="transpose-controls">
             <button class="transpose-btn" id="btn-transpose-minus" title="Abbassa di 1 semitono">-</button>
             <span class="transpose-value" id="transpose-value">0</span>
             <button class="transpose-btn" id="btn-transpose-plus" title="Alza di 1 semitono">+</button>
           </div>
-          <button class="btn" id="btn-transpose-c" style="background: rgba(245, 158, 11, 0.2); border-color: var(--text-gold); color: var(--text-gold-bright); font-weight: 700;" title="Imposta subito l'accordatura della band in Do (C Standard: -4 Semitoni)">
-            🎸 Tuning Do (C: -4)
+          <button class="btn" id="btn-transpose-reset" style="padding: 0.4rem 0.6rem; font-size: 0.8rem;" title="Mostra gli accordi con le posizioni originali (diteggiatura originale)">
+            Reset Diteggiatura (E)
           </button>
-          <button class="btn" id="btn-transpose-reset" style="padding: 0.4rem 0.6rem; font-size: 0.8rem;">Reset (E)</button>
         </div>
 
         <div class="toolbar-group">
@@ -123,12 +122,12 @@
             <strong id="viewer-album">Piece of Mind (1983)</strong>
           </div>
           <div class="viewer-meta-item">
-            <span>🎸 Accordatura Band:</span>
-            <strong id="viewer-tuning" style="color: var(--text-gold-bright);">C Standard / Drop (-4 Semitoni)</strong>
+            <span>🎸 Diteggiatura Chitarre:</span>
+            <strong id="viewer-tuning" style="color: var(--text-gold-bright);">Accordi Originali (Em, C, D)</strong>
           </div>
           <div class="viewer-meta-item">
-            <span>🎵 Tonalità Orig:</span>
-            <strong id="viewer-key">Em</strong>
+            <span>🔊 Suono Reale Strumenti (in C):</span>
+            <strong id="viewer-key" style="color: var(--accent-crimson-bright);">Cm (2 toni sotto)</strong>
           </div>
           <div class="viewer-meta-item">
             <span>⏱️ Tempo:</span>
@@ -136,28 +135,40 @@
           </div>
         </div>
 
-        <!-- YouTube Audio Links Section -->
+        <!-- YouTube Audio & Pitch Control Bar -->
         <div class="youtube-actions-bar" style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center;">
-          <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">🎧 Audio & Backing Track:</span>
-          <a id="link-yt-original" href="#" target="_blank" class="btn" style="background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.4); color: var(--accent-crimson-bright); text-decoration: none;">
-            🔴 Originale YouTube
-          </a>
-          <a id="link-yt-eb" href="#" target="_blank" class="btn" style="background: rgba(245, 158, 11, 0.15); border-color: rgba(245, 158, 11, 0.4); color: var(--text-gold-bright); text-decoration: none;">
-            🎸 C Tuning / Lower Key Track
-          </a>
-          <button id="btn-yt-embed" class="btn" style="background: var(--bg-hover);">
-            📺 Player Integrato
+          <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">🎧 Audio Player:</span>
+          
+          <button id="btn-yt-embed-c" class="btn" style="background: linear-gradient(135deg, #b91c1c, #dc2626); border-color: #ef4444; color: white; font-weight: 700;">
+            🎸 Player Audio in DO (C Tuning: -4 Semitoni)
           </button>
+
+          <button id="btn-yt-embed-orig" class="btn" style="background: var(--bg-hover);">
+            🔴 Audio Originale (E Standard)
+          </button>
+
+          <a id="link-yt-external" href="#" target="_blank" class="btn" style="background: rgba(245, 158, 11, 0.15); border-color: rgba(245, 158, 11, 0.4); color: var(--text-gold-bright); text-decoration: none;">
+            ↗ Apri su YouTube
+          </a>
         </div>
 
-        <!-- Embedded YouTube Video Container -->
-        <div id="youtube-embed-container" style="display: none; margin-top: 1rem; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius-md); border: 1px solid var(--border-color);">
-          <iframe id="youtube-iframe" style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <!-- Embedded YouTube Video / Pitch Player Container -->
+        <div id="youtube-embed-wrapper" style="display: none; margin-top: 1rem; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+            <strong id="yt-player-status-title" style="color: var(--text-gold-bright); font-size: 0.95rem;">
+              🎸 Player Audio Pitch-Shifted in DO (C Tuning: -4 Semitoni)
+            </strong>
+            <button id="btn-close-yt-player" class="btn" style="padding: 0.2rem 0.5rem; font-size: 0.8rem;">✕ Chiudi Player</button>
+          </div>
+
+          <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: var(--radius-sm); border: 1px solid rgba(255,255,255,0.1);">
+            <iframe id="youtube-iframe" style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
 
         <!-- Transpose Hint Badge -->
-        <div id="transpose-hint-badge" style="display: none; margin-top: 0.85rem; background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.4); color: var(--text-gold-bright); padding: 0.5rem 0.85rem; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 600;">
-          💡 Tonalità impostata: <span id="transpose-hint-text"></span>
+        <div id="transpose-hint-badge" style="display: block; margin-top: 0.85rem; background: rgba(245, 158, 11, 0.15); border: 1px solid rgba(245, 158, 11, 0.4); color: var(--text-gold-bright); padding: 0.5rem 0.85rem; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 600;">
+          💡 Diteggiatura: <span id="transpose-hint-text">Accordi Originali (Le vostre chitarre accordate in DO emetteranno il suono in C)</span>
         </div>
       </div>
 
