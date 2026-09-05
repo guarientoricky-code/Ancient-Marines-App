@@ -635,26 +635,94 @@ E|----------------------------------|----------------------------------|
 [A5] [G5] [D5] [A5]
 
 [Verse 1]
-[A5]No use in asking, what's going on
-[G5]When the prophet speaks, he's [D5]already gone
-[A5]Standing in the shadow of doom
-[G5]Fearing the arrival of the [D5]darkened moon
+[A5]Yeah, another prophet of disaster
+[G5]Who says this [D5]ship is lost
+[A5]Another prophet of disaster
+[G5]Leaving you to [D5]count the cost
+[A5]Taunting us with visions
+[G5]Afflicting [D5]us with fear
+[A5]Predicting war for millions
+[G5]In the hope that [D5]one appears
 
-[Verse 2]
-[A5]Nostradamus predicts the end of time
-[G5]Words written in an ancient [D5]rhyme
-[A5]Don't waste your time listening to his lie
-[G5]If you're gonna die, die with your [D5]boots on!
+[Pre-Chorus]
+[C5]No point asking when it is
+[D5]No point asking who's to go
+[C5]No point asking what's the game
+[D5]No point asking who's to blame
+[E5]'Cause if you're gonna die (if you're gonna die)
+You're gonna die (if you're gonna die)
+If you're gonna die (if you're gonna die)
+If you're gonna die
 
 [Chorus]
-If you're gonna [A5]die, [G5]die with your [D5]boots on!
-If you're gonna [A5]die, [G5]die with your [D5]boots on!
-If you're gonna [A5]die, [G5]die with your [D5]boots on!
-[A5]Die with your boots on!
+[A5]If you're gonna die, [G5]die with your [D5]boots on
+[A5]If you're gonna try, well, [G5]stick a[D5]round
+[A5]Gonna cry, [G5]just move a[D5]long
+[A5]If you're gonna die, you're gonna die!
+[A5]Gonna die, [G5]die with your [D5]boots on
+[A5]If you're gonna try, well, [G5]stick a[D5]round
+[A5]Gonna cry, [G5]just move a[D5]long
+[A5]If you're gonna die, you're gonna die!
 
-[Outro]
-[A5]Die with your boots on!
-[A5] [G5] [D5] [A5]`
+[Verse 2]
+[A5]13, the beast is rising
+[G5]The Frenchman [D5]did surmise
+[A5]Through earthquakes and starvation
+[G5]The warlord [D5]will arise
+[A5]Terror, death, destruction
+[G5]Pour from the [D5]eastern sands
+[A5]But the truth of all predictions
+[G5]Is always [D5]in your hands
+
+[Pre-Chorus]
+[C5]No point asking when it is
+[D5]No point asking who's to go
+[C5]No point asking what's the game
+[D5]No point asking who's to blame
+[E5]'Cause if you're gonna die (if you're gonna die)
+You're gonna die (if you're gonna die)
+If you're gonna die (if you're gonna die)
+If you're gonna die
+
+[Chorus]
+[A5]If you're gonna die, [G5]die with your [D5]boots on
+[A5]If you're gonna try, well, [G5]stick a[D5]round
+[A5]Gonna cry, [G5]just move a[D5]long
+[A5]If you're gonna die, you're gonna die!
+[A5]Gonna die, ha-ha, [G5]die with your [D5]boots on
+[A5]If you're gonna try, well, [G5]stick a[D5]round
+[A5]Gonna cry, [G5]just move a[D5]long
+[A5]If you're gonna die, you're gonna die!
+
+[Guitar Solos Section & Interlude]
+[A5] [G5] [D5] [A5]
+[A5] [G5] [D5] [A5]
+They died with their boots on
+Yes, they died
+They died, they died with their boots on
+We died
+We died, we died, we died, we died, we died
+
+[Pre-Chorus]
+[C5]No point asking when it is
+[D5]No point asking who's to go
+[C5]No point asking what's the game
+[D5]No point asking who's to blame
+[E5]'Cause if you're gonna die (if you're gonna die)
+You're gonna die (if you're gonna die)
+If you're gonna die (if you're gonna die)
+If you're gonna die
+
+[Chorus / Outro]
+[A5]If you're gonna die, [G5]die with your [D5]boots on
+[A5]If you're gonna try, try, [G5]just stick a[D5]round
+[A5]Gonna cry, [G5]just move a[D5]long
+[A5]If you're gonna die, you're gonna die!
+[A5]Gonna die, [G5]die with your [D5]boots on
+[A5]If you're gonna try, well, [G5]stick a[D5]round
+[A5]Gonna cry, [G5]just move a[D5]long
+[A5]If you're gonna die...
+[A5]Die!`
   }
 ];
 
