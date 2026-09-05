@@ -99,7 +99,7 @@ E|-------------------|-------------------|-------------------|------------------
     youtubeId: "cOVzXYEU3Bk", // Studio Original
     youtubeCId: "NOtPpxJQJk0", // Band C Tuning Track
     youtubeCLink: "https://youtu.be/NOtPpxJQJk0",
-    summary: "Adrian Smith masterpiece featuring the iconic open E string tapping/picking intro.",
+    summary: "Adrian Smith masterpiece with custom performance lyrics for The Ancient Mariners.",
     content: `[Iconic Adrian Smith Intro Riff]
 [TAB]
 e|-12-0-0-7-0-0-8-0-0-5-0-0-7-0-0-3-0-0-5-0-0-2-0-0-3-0-0-2-0-0-|
@@ -111,40 +111,62 @@ E|---------------------------------------------------------------|
 [/TAB]
 
 [Verse 1]
-[Em]From the coast of gold, across the seven seas
-[C]I'm travelling on, far and wide
-[D]But now it seems, I'm wandering no more
-[Em]I've opened up my eyes and I can see
+[Em]On the coast of gold
+[C]Across the seven seas
+[D]I'm traveling on
+[Em]Far away
+[Em]But now it seems
+[C]I'm just a stranger to myself
+[D]And all the things I sometimes do
+[Em]It isn't me but someone else
 
 [Verse 2]
-[Em]So understand, don't waste your time always searching for those wasted years
-[C]Face up... make your stand
-[D]Realise you're living in the golden years
+[Em]I close my eyes
+[C]And I think of home
+[D]Another city goes by
+[Em]In the night
+[Em]And it's funny how it is
+[C]You never miss it till it's gone away
+[D]And my heart is lying there
+[Em]And it will be till the day I die
 
 [Chorus]
-[Em]So understand, don't waste your time
-[C]Always searching for those wasted years
-[D]Face up, make your stand
-[Em]Realise you're living in the golden years!
+[Em]So understand
+[C]Don't waste your time always searching for those [D]wasted years
+[Em]Face up, make your stand
+[C]And realize you're living in the [D]golden years
 
 [Verse 3]
-[Em]Don't look back, don't look back in anger
-[C]Don't look back, leave the past behind
-[D]Face up, make your stand
-[Em]Realise you're living in the golden years!
+[Em]Too much time on my hands
+[C]I got you on my mind
+[D]Playing easy to play
+[Em]So easily
+[Em]When you can't find the words to say
+[C]It's hard to make it through another day
+[D]And it makes me want to cry
+[Em]Throw my hands up to the sky
 
 [Guitar Solo Rhythm]
 [Em] [C] [D] [Em]
 [Em] [C] [D] [Em]
 
 [Chorus]
-[Em]So understand, don't waste your time
-[C]Always searching for those wasted years
-[D]Face up, make your stand
-[Em]Realise you're living in the golden years!
+[Em]So understand
+[C]Don't waste your time always searching for those [D]wasted years
+[Em]Face up, make your stand
+[C]And realize you're living in the [D]golden years
 
-[Outro]
-[Em]Living in the golden years...
+[Chorus]
+[Em]So understand
+[C]Don't waste your time always searching for those [D]wasted years
+[Em]Face up, make your stand
+[C]And realize you're living in the [D]golden years
+
+[Chorus / Outro]
+[Em]So understand
+[C]Don't waste your time always searching for those [D]wasted years
+[Em]Face up, make your stand
+[C]And realize you're living in the [D]golden years!
 [Em] [C] [D] [Em]`
   },
   {
