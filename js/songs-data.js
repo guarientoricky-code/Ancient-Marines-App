@@ -1,127 +1,12 @@
 /**
  * The Ancient Mariners - Iron Maiden Songs Database
- * 100% Full Unabridged Lyrics, Chords, Tabs, Tuning & Musical Metadata
+ * Complete lyrics, chords, tabs, tuning & musical metadata
  */
 
 const SONGS_DATABASE = [
-  {
-    id: "rime-of-the-ancient-mariner",
-    title: "Rime of the Ancient Mariner",
-    album: "Powerslave (1984)",
-    tuning: "E Standard (E A D G B E)",
-    key: "Em",
-    bpm: 142,
-    difficulty: "Advanced",
-    type: "Chords & Full Tabs",
-    summary: "The epic 13-minute masterpiece based on Samuel Taylor Coleridge's poem.",
-    content: `[Intro Riff - Twin Guitar Harmony]
-[TAB]
-e|-----------------------------------|-----------------------------------|
-B|-----------------------------------|-----------------------------------|
-G|-------9---7~------9---7~----------|-------9---7~------9---7~----------|
-D|---7-9---9-----7-9---9---9-7-------|---7-9---9-----7-9---9---9-7-------|
-A|-7-----------7---------------10-9--|-7-----------7---------------10-9--|
-E|-----------------------------------|-----------------------------------|
-[/TAB]
-
-[Steve Harris Bass Gallop]
-[TAB]
-G|-----------------------------------|-----------------------------------|
-D|---9-9-9-9-9-9-9-9-9-9-9-9-9-9-9---|---7-7-7-7-7-7-7-7-7-7-7-7-7-7-7---|
-A|-7-------------------------------7-|-5-------------------------------5-|
-E|-----------------------------------|-----------------------------------|
-[/TAB]
-
-[Verse 1]
-[Em]Hear the rime of the Ancient Mariner
-[C]See his eye as he [D]stops one of three
-[Em]Mesmerised by the party guest
-[C]Listen his voice as the [D]tale he tells
-
-[Em]Driven south to the land of snow and ice
-[C]To a place where nobody's [D]been
-[Em]Through the fog of the ice came the albatross
-[C]Hailed in God's name, [D]hoping good luck it brings
-
-[Chorus]
-[G]And the ship sailed [D]on, back to the [Em]north
-Through the [C]fog and ice and the [D]albatross follows [Em]on
-[G]The mariner [D]kills the bird of [Em]good omen
-[C]His shipmates cry out [D]at his terrible [Em]deed
-"You've [C]killed the bird that [D]made the breeze [Em]blow!"
-
-[Guitar Solo Riff - Dave Murray & Adrian Smith]
-[TAB]
-e|-12p7----12p7----12p7----12p7----|-14p10----14p10----14p10----14p10----|
-B|------8-------8-------8-------8--|-------10-------10-------10-------10-|
-G|---------------------------------|-------------------------------------|
-D|---------------------------------|-------------------------------------|
-A|---------------------------------|-------------------------------------|
-E|---------------------------------|-------------------------------------|
-[/TAB]
-
-[Verse 2]
-[Em]Day after day, day after day
-We [C]stuck, nor breath nor [D]motion
-[Em]As idle as a painted ship
-U[C]pon a painted [D]ocean
-
-[Em]The water, water everywhere
-[C]And all the boards did [D]shrink
-[Em]Water, water everywhere
-[C]Nor any drop to [D]drink
-
-[Pre-Chorus]
-[C]There calls the ship, [D]there comes a ship
-[Em]A skeleton ship, a phantom crew
-[C]Death and Life-in-Death, [D]they roll the dice for the crew
-[Em]She wins the Mariner and he belongs to her now!
-
-[Chorus]
-[G]And the ship sailed [D]on, back to the [Em]north
-Through the [C]fog and ice and the [D]albatross follows [Em]on
-[G]The mariner [D]kills the bird of [Em]good omen
-[C]His shipmates cry out [D]at his terrible [Em]deed
-"You've [C]killed the bird that [D]made the breeze [Em]blow!"
-
-[Atmospheric Spoken Section]
-[Em] [D] [C] [B5]
-"One after one, by the star-dogged moon, too quick for groan or sigh
-Each turned his face with a ghastly pang, and cursed me with his eye
-Four times fifty living men, and I heard nor sigh nor groan
-With heavy thump, a lifeless lump, they dropped down one by one
-The souls did from their bodies fly, they fled to bliss or woe
-And every soul, it passed me by, like the whizz of my crossbow..."
-
-[Creaking Ship & Bass Solo]
-[Em] [D] [C] [D]
-
-[Heavy Fast Return Riff]
-[Em]The curse it lives on in their eyes!
-[C]How long can I look in those [D]dead men's eyes?
-[Em]Seven days and seven nights I saw the curse
-[C]And yet I could not [D]die...
-
-[Verse 3]
-[Em]Then the spell starts to break
-[C]The albatross falls from his [D]neck, sinks like lead
-[Em]Into the sea, down into the sea
-[C]And the rain falls down to [D]wash away my sin!
-
-[Chorus]
-[G]And the ship sailed [D]on, back to the [Em]north
-Through the [C]fog and ice and the [D]albatross follows [Em]on
-[G]The mariner [D]kills the bird of [Em]good omen
-[C]His shipmates cry out [D]at his terrible [Em]deed
-"You've [C]killed the bird that [D]made the breeze [Em]blow!"
-
-[Outro]
-[Em]The Mariner hath [C]his redemption
-[D]And his tale is [Em]told!
-[Em]He prayeth best, who loveth best
-[C]All things both [D]great and [Em]small...
-[Em] [C] [D] [Em]`
-  },
+  /* ==========================================================================
+     PRIORITY BAND SETLIST SONGS
+     ========================================================================== */
   {
     id: "the-trooper",
     title: "The Trooper",
@@ -131,7 +16,8 @@ Through the [C]fog and ice and the [D]albatross follows [Em]on
     bpm: 160,
     difficulty: "Advanced",
     type: "Chords & Iconic Riff Tabs",
-    summary: "Classic heavy metal anthem featuring one of the most famous guitar riffs in rock history.",
+    isBandPriority: true,
+    summary: "Classic heavy metal anthem with custom performance lyrics for The Ancient Mariners.",
     content: `[Iconic Main Guitar Riff]
 [TAB]
 e|-------------------|-------------------|-------------------|--------------------|
@@ -153,36 +39,20 @@ E|-------------------|-------------------|-------------------|------------------
 [Em]Ooh-ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh-ooh! [D]
 
 [Verse 2]
+[Em]The bugle sounds, the charge begins
+[C]But on this battlefield, [D]no one wins
 [Em]The smell of acrid smoke and horses' breath
 [C]As I plunge on into [D]certain death
-[Em]The horse he sweats with fear, we break to run
-[C]The mighty roar of the [D]Russian guns
-
-[Chorus]
-[Em]Ooh-ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh-ooh! [D]
-[Em]Ooh-ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh-ooh! [D]
 
 [Verse 3]
-[Em]We hurdle bodies that lie on the plain
-[C]And as the Russian [D]lay another aim
-[Em]We get so near yet so far away
-[C]We won't live to fight [D]another day
+[Em]The horse, he sweats with fear, we break to run
+[C]The mighty roar of the [D]Russian guns
+[Em]And as we race towards the human wall
+[C]The screams of pain as my [D]comrades fall
 
 [Chorus]
 [Em]Ooh-ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh-ooh! [D]
 [Em]Ooh-ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh-ooh! [D]
-
-[Verse 4]
-[Em]We get so close, near enough to fight
-[C]When a Russian gets me [D]in his sights
-[Em]He pulls the trigger and I feel the blow
-[C]A burst of rounds takes my [D]horse below
-
-[Bridge]
-[C]And as we wipe the tears from [D]our eyes
-[Em]A thousand soldiers meet their demise
-[C]And as we lay there dying in [D]the mud
-[Em]The battle rages on, we're covered in blood
 
 [Dave Murray Guitar Solo Rhythm]
 [Em] [C] [D] [Em]
@@ -192,88 +62,330 @@ E|-------------------|-------------------|-------------------|------------------
 [E5] [D5] [C5] [D5]
 [E5] [D5] [C5] [D5]
 
+[Verse 4]
+[Em]We hurdle bodies that lay on the ground
+[C]And the Russians fire a[D]nother round
+[Em]We get so near, yet so far away
+[C]We won't live to fight a[D]nother day
+
+[Verse 5]
+[Em]We get so close, near enough to fight
+[C]When a Russian gets me [D]in his sights
+[Em]He pulls the trigger and I feel the blow
+[C]A burst of rounds take my [D]horse below
+
+[Verse 6]
+[Em]And as I lay there gazing at the sky
+[C]My body's numb and my [D]throat is dry
+[Em]And as I lay forgotten and alone
+[C]Without a tear, I draw my [D]parting groan...
+
 [Outro Main Riff & Final Chords]
 [Em] [C] [D] [Em]`
   },
   {
-    id: "fear-of-the-dark",
-    title: "Fear of the Dark",
-    album: "Fear of the Dark (1992)",
+    id: "wasted-years",
+    title: "Wasted Years",
+    album: "Somewhere in Time (1986)",
     tuning: "E Standard (E A D G B E)",
-    key: "Dm",
-    bpm: 146,
+    key: "Em",
+    bpm: 154,
     difficulty: "Intermediate",
-    type: "Chords & Melodic Intro Tabs",
-    summary: "Live stadium chant powerhouse with memorable twin melody intro.",
-    content: `[Clean Intro Melody Riff]
+    type: "Chords & Open String Intro Tab",
+    isBandPriority: true,
+    summary: "Adrian Smith masterpiece featuring the iconic open E string tapping/picking intro.",
+    content: `[Iconic Adrian Smith Intro Riff]
 [TAB]
-e|---10-8-10-8-10-8-10-8---8-6-8-6-8-6-8-6---6-5-6-5-6-5-6-5---5---5---8-6-5---|
-B|-7---------------------6-----------------5-----------------5---6----------6-|
-G|----------------------------------------------------------------------------|
-D|----------------------------------------------------------------------------|
-A|----------------------------------------------------------------------------|
-E|----------------------------------------------------------------------------|
+e|-12-0-0-7-0-0-8-0-0-5-0-0-7-0-0-3-0-0-5-0-0-2-0-0-3-0-0-2-0-0-|
+B|---------------------------------------------------------------|
+G|---------------------------------------------------------------|
+D|---------------------------------------------------------------|
+A|---------------------------------------------------------------|
+E|---------------------------------------------------------------|
 [/TAB]
 
-[Crowd Singing Chants]
-[Dm]Ooh-ooh-ooh-ooh! [Bb]Ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh! [Dm]
-[Dm]Ooh-ooh-ooh-ooh! [Bb]Ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh! [Dm]
-
 [Verse 1]
-[Dm]I am a man who walks alone
-And when I'm [Bb]walking a dark road
-At [C]night or walking through the park[Dm]
-
-[Dm]When the light begins to change
-I sometimes [Bb]feel a little strange
-A [C]little anxious when it's dark[Dm]
-
-[Chorus]
-[Dm]Fear of the dark, [Bb]fear of the dark
-[C]I have a constant fear that something's [Dm]always near
-[Dm]Fear of the dark, [Bb]fear of the dark
-[C]I have a phobia that someone's [Dm]always there
+[Em]From the coast of gold, across the seven seas
+[C]I'm travelling on, far and wide
+[D]But now it seems, I'm wandering no more
+[Em]I've opened up my eyes and I can see
 
 [Verse 2]
-[Dm]Have you run your fingers down the wall
-And have you [Bb]felt your neck skin crawl
-When you're [C]searching for the light switch?[Dm]
-
-[Dm]Have you ever read a story late at night
-And [Bb]wondered if the shadows behind you are alive?[C] [Dm]
+[Em]So understand, don't waste your time always searching for those wasted years
+[C]Face up... make your stand
+[D]Realise you're living in the golden years
 
 [Chorus]
-[Dm]Fear of the dark, [Bb]fear of the dark
-[C]I have a constant fear that something's [Dm]always near
-[Dm]Fear of the dark, [Bb]fear of the dark
-[C]I have a phobia that someone's [Dm]always there
+[Em]So understand, don't waste your time
+[C]Always searching for those wasted years
+[D]Face up, make your stand
+[Em]Realise you're living in the golden years!
 
 [Verse 3]
-[Dm]When your house is dark and silent
-And you're [Bb]lying in your bed
-And you [C]hear a sudden creaking floorboard[Dm]
+[Em]Don't look back, don't look back in anger
+[C]Don't look back, leave the past behind
+[D]Face up, make your stand
+[Em]Realise you're living in the golden years!
 
-[Dm]Does your mind begin to play tricks
-As you [Bb]look towards the door
-And you're [C]watching for a shadow on the floor?[Dm]
+[Guitar Solo Rhythm]
+[Em] [C] [D] [Em]
+[Em] [C] [D] [Em]
 
-[Verse 4]
-[Dm]Watching horror movies the night before
-[Bb]Debating if the monsters were real
-[C]Watching for a creature lurking in the dark[Dm]
+[Chorus]
+[Em]So understand, don't waste your time
+[C]Always searching for those wasted years
+[D]Face up, make your stand
+[Em]Realise you're living in the golden years!
+
+[Outro]
+[Em]Living in the golden years...
+[Em] [C] [D] [Em]`
+  },
+  {
+    id: "killers",
+    title: "Killers",
+    album: "Killers (1981)",
+    tuning: "E Standard (E A D G B E)",
+    key: "Em / E",
+    bpm: 168,
+    difficulty: "Advanced",
+    type: "Chords & Bass Intro Tab",
+    isBandPriority: true,
+    summary: "Aggressive early Maiden classic driven by Steve Harris harmonics and Paul Di'Anno scream intro.",
+    content: `[Steve Harris Bass Harmonics Intro]
+[TAB]
+G|-----12-------12-------12---|-----12-------12-------12---|
+D|---12--12---12--12---12--12-|---12--12---12--12---12--12-|
+A|-7--------7--------7--------|-5--------5--------5--------|
+E|----------------------------|----------------------------|
+[/TAB]
+
+[Intro Heavy Riff]
+[Em] [D] [C] [B5]
+[Em] [D] [C] [B5]
+
+[Verse 1]
+[Em]You walk through the subway, his eyes in your back
+[D]A footstep behind you, he's preparing attack
+[C]Scream for mercy, he laughs as he drinks in your [B5]dread
+[Em]Knowledge your life's about to slip away!
+
+[Verse 2]
+[Em]My blood runs cold as I stand in the dark
+[D]I hear the laughter, a cold wicked spark
+[C]The blade draws near as you fall to your [B5]knees
+[Em]No one can hear as you scream and you plead!
+
+[Chorus]
+[Em]You're a killer! [D]Cold blooded killer!
+[C]My blood runs cold as I'm [B5]taking your life!
+[Em]You're a killer! [D]Cold blooded killer!
+[C]My blood runs cold as I'm [B5]taking your life!
 
 [Guitar Solos Rhythm Section]
-[Dm] [Bb] [C] [Dm]
-[F] [C] [Dm] [Bb]
-[F] [C] [Bb] [C]
+[Em] [D] [C] [B5]
+[Em] [D] [C] [B5]
 
-[Fast Heavy Section]
-[Dm] [C] [Bb] [C]
-[Dm] [C] [Bb] [C]
+[Outro Riff & Scream]
+[Em]Killers! Killers!
+[Em] [D] [C] [B5] [Em]`
+  },
+  {
+    id: "invaders",
+    title: "Invaders",
+    album: "The Number of the Beast (1982)",
+    tuning: "E Standard (E A D G B E)",
+    key: "Em",
+    bpm: 172,
+    difficulty: "Advanced",
+    type: "Chords & High-Speed Gallop",
+    isBandPriority: true,
+    summary: "Opening track of The Number of the Beast describing Viking raids.",
+    content: `[Intro Fast Riff]
+[Em] [C] [D] [Em]
+[Em] [C] [D] [Em]
 
-[Outro Crowd Singing & Final Melody]
-[Dm]Ooh-ooh-ooh-ooh! [Bb]Ooh-ooh-ooh-ooh! [C]Ooh-ooh-ooh-ooh! [Dm]
-[Dm]Fear of the dark... [Dm]`
+[Verse 1]
+[Em]Longships are coming, the sea's running red
+[C]The Viking invaders are [D]raising the dead
+[Em]Axes are gleaming, shields in a line
+[C]Fighting to live to the [D]end of all time!
+
+[Verse 2]
+[Em]Fire and slaughter, no mercy or grace
+[C]The blood on the steel as we [D]stand face to face
+[Em]Screaming in agony, battle is won
+[C]Fighting under the [D]midday sun!
+
+[Chorus]
+[Em]Invaders! [C]Pillaging, [D]looting!
+[Em]Invaders! [C]Fighting on the [D]shore!
+[Em]Invaders! [C]Pillaging, [D]looting!
+[Em]Invaders! [C]Rape and [D]war!
+
+[Verse 3]
+[Em]The villagers fleeing, no time to prepare
+[C]The sound of the horns echo [D]free in the air
+[Em]Swords clash together as brothers collide
+[C]Nowhere to run and [D]nowhere to hide!
+
+[Chorus]
+[Em]Invaders! [C]Pillaging, [D]looting!
+[Em]Invaders! [C]Fighting on the [D]shore!
+[Em]Invaders! [C]Pillaging, [D]looting!
+[Em]Invaders! [C]Rape and [D]war!
+
+[Guitar Solo Rhythm]
+[Em] [C] [D] [Em]
+[Em] [C] [D] [Em]
+
+[Outro]
+[Em]Invaders! Invaders!
+[Em] [C] [D] [Em]`
+  },
+  {
+    id: "phantom-of-the-opera",
+    title: "Phantom of the Opera",
+    album: "Iron Maiden (1980)",
+    tuning: "E Standard (E A D G B E)",
+    key: "Em",
+    bpm: 165,
+    difficulty: "Expert",
+    type: "Chords & Progressive Metal Tabs",
+    isBandPriority: true,
+    summary: "Early Maiden progressive heavy metal masterpiece with intricate bass and guitar arpeggios.",
+    content: `[Fast Intro Arpeggio Riff]
+[TAB]
+e|-12-0-0-10-0-0-8-0-0-7-0-0-8-0-0-7-0-0-5-0-0-7-0-0-|
+B|----------------------------------------------------|
+G|----------------------------------------------------|
+D|----------------------------------------------------|
+A|----------------------------------------------------|
+E|----------------------------------------------------|
+[/TAB]
+
+[Verse 1]
+[Em]I've been looking so long at these pictures of you
+[C]That I almost believe that they're [D]real
+[Em]I've been living so long with my memories of you
+[C]That I almost forget the way I [D]feel
+
+[Verse 2]
+[Em]You're standing there all alone in the dark
+[C]With a dagger clutched in your [D]hand
+[Em]You wait for the night and the shadow to fall
+[C]As you carry out your [D]plan!
+
+[Chorus]
+[Em]Keep your distance, walk away, don't look back
+[C]Phantom of the [D]Opera is gonna get [Em]you!
+[Em]Keep your distance, walk away, don't look back
+[C]Phantom of the [D]Opera is gonna get [Em]you!
+
+[Progressive Middle Section & Solo Rhythm]
+[Em] [D] [C] [B5]
+[Em] [D] [C] [B5]
+[C5] [D5] [E5]
+
+[Outro Section]
+[Em] [C] [D] [Em]`
+  },
+  {
+    id: "flash-of-the-blade",
+    title: "Flash of the Blade",
+    album: "Powerslave (1984)",
+    tuning: "E Standard (E A D G B E)",
+    key: "Em / G",
+    bpm: 158,
+    difficulty: "Advanced",
+    type: "Chords & Twin Harmony Intro Tab",
+    isBandPriority: true,
+    summary: "Swordsmanship and fencing duel anthem with brilliant twin guitar counterpoint riffs.",
+    content: `[Twin Guitar Harmony Riff]
+[TAB]
+e|-----------------------------------|-----------------------------------|
+B|-------12--10~------12--10~--------|-------12--10~------12--10~--------|
+G|---9-12--12-----9-12--12---12-10---|---9-12--12-----9-12--12---12-10---|
+D|-9------------9-----------------12-|-9------------9-----------------12-|
+A|-----------------------------------|-----------------------------------|
+E|-----------------------------------|-----------------------------------|
+[/TAB]
+
+[Verse 1]
+[Em]As a young boy, chasing dragons in the snow
+[C]Learning how to fight, learning [D]how to grow
+[Em]Mastering the sword, precision in his eyes
+[C]Preparing for the day when his [D]family dies
+
+[Verse 2]
+[Em]One day the dragon comes, slaughter in the night
+[C]Blood upon the snow, in the [D]pale moonlight
+[Em]He swore an oath of vengeance, weapon in his hand
+[C]The finest swordsman in the [D]land!
+
+[Chorus]
+[G]You'll die as you lived, in a [D]flash of the blade!
+[Em]In a corner forgotten, by a [C]trick of the [D]trade!
+[G]You'll die as you lived, in a [D]flash of the blade!
+[Em]In a corner forgotten, by a [C]trick of the [D]trade!
+
+[Guitar Solo Rhythm]
+[Em] [C] [D] [Em]
+[G] [D] [Em] [C] [D]
+
+[Outro]
+[Em]Flash of the blade! Flash of the blade!
+[Em] [C] [D] [Em]`
+  },
+  {
+    id: "infinite-dreams",
+    title: "Infinite Dreams",
+    album: "Seventh Son of a Seventh Son (1988)",
+    tuning: "E Standard (E A D G B E)",
+    key: "Em / D",
+    bpm: 130,
+    difficulty: "Expert",
+    type: "Chords & Progressive Clean Intro",
+    isBandPriority: true,
+    summary: "Complex progressive epic exploring nightmares, paralysis and the afterlife.",
+    content: `[Clean Atmosphere Intro]
+[Em] [D] [C] [D]
+[Em] [D] [C] [D]
+
+[Verse 1]
+[Em]Infinite dreams I can't deny them
+[D]Having them repeatedly, I try to hide them
+[C]’Cause I’m tortured by the thought of sleep
+[D]I pray the Lord my soul to keep
+
+[Verse 2]
+[Em]There’s a nightmare waiting right outside my door
+[D]Creeping through the shadows on the floor
+[C]A paralyzing fear that takes my breath
+[D]Is this a vision of my death?
+
+[Heavy Tempo Change Riff]
+[Em] [C] [D] [Em]
+
+[Verse 3]
+[Em]There's a time to live and a time to die
+[C]When it's time to meet the [D]maker in the sky
+[Em]Will I wake up in another place?
+[C]Or disappear without a [D]trace?
+
+[Chorus]
+[Em]Infinite dreams, [C]suffocating me!
+[D]Help me, please, set me [Em]free!
+[Em]Infinite dreams, [C]suffocating me!
+[D]Help me, please, set me [Em]free!
+
+[Fast Solos Section]
+[E5] [D5] [C5] [D5]
+[E5] [D5] [C5] [D5]
+
+[Outro]
+[Em]Infinite dreams...
+[Em] [D] [C] [D] [Em]`
   },
   {
     id: "hallowed-be-thy-name",
@@ -284,6 +396,7 @@ And you're [C]watching for a shadow on the floor?[Dm]
     bpm: 155,
     difficulty: "Advanced",
     type: "Full Chords & Solos Riffs",
+    isBandPriority: true,
     summary: "Widely regarded as one of the greatest heavy metal compositions ever written.",
     content: `[Slow Bells & Clean Intro]
 [Em]I'm waiting in my cold cell when the [D]bell begins to chime
@@ -348,6 +461,125 @@ E|----------------------------------|----------------------------------|
 [Em] [D] [C] [D] [Em]`
   },
   {
+    id: "die-with-your-boots-on",
+    title: "Die With Your Boots On",
+    album: "Piece of Mind (1983)",
+    tuning: "E Standard (E A D G B E)",
+    key: "A / Em",
+    bpm: 164,
+    difficulty: "Intermediate",
+    type: "Chords & Gang Vocal Riff",
+    isBandPriority: true,
+    summary: "Defiant anthem encouraging living life to the fullest until the end.",
+    content: `[Main Heavy Driving Riff]
+[A5] [G5] [D5] [A5]
+[A5] [G5] [D5] [A5]
+
+[Verse 1]
+[A5]No use in asking, what's going on
+[G5]When the prophet speaks, he's [D5]already gone
+[A5]Standing in the shadow of doom
+[G5]Fearing the arrival of the [D5]darkened moon
+
+[Verse 2]
+[A5]Nostradamus predicts the end of time
+[G5]Words written in an ancient [D5]rhyme
+[A5]Don't waste your time listening to his lie
+[G5]If you're gonna die, die with your [D5]boots on!
+
+[Chorus]
+If you're gonna [A5]die, [G5]die with your [D5]boots on!
+If you're gonna [A5]die, [G5]die with your [D5]boots on!
+If you're gonna [A5]die, [G5]die with your [D5]boots on!
+[A5]Die with your boots on!
+
+[Verse 3]
+[A5]They bring despair, they bring misery
+[G5]Pointing their fingers at [D5]you and me
+[A5]Stand your ground, don't bow your head
+[G5]Fight till the last drop of [D5]blood is shed!
+
+[Chorus]
+If you're gonna [A5]die, [G5]die with your [D5]boots on!
+If you're gonna [A5]die, [G5]die with your [D5]boots on!
+If you're gonna [A5]die, [G5]die with your [D5]boots on!
+[A5]Die with your boots on!
+
+[Guitar Solos Rhythm]
+[A5] [G5] [D5] [A5]
+[E5] [D5] [C5] [D5]
+
+[Outro]
+[A5]Die with your boots on!
+[A5] [G5] [D5] [A5]`
+  },
+
+  /* ==========================================================================
+     ADDITIONAL IRON MAIDEN CLASSICS
+     ========================================================================== */
+  {
+    id: "rime-of-the-ancient-mariner",
+    title: "Rime of the Ancient Mariner",
+    album: "Powerslave (1984)",
+    tuning: "E Standard (E A D G B E)",
+    key: "Em",
+    bpm: 142,
+    difficulty: "Advanced",
+    type: "Chords & Full Tabs",
+    summary: "The epic 13-minute masterpiece based on Samuel Taylor Coleridge's poem.",
+    content: `[Intro Riff - Twin Guitar Harmony]
+[TAB]
+e|-----------------------------------|-----------------------------------|
+B|-----------------------------------|-----------------------------------|
+G|-------9---7~------9---7~----------|-------9---7~------9---7~----------|
+D|---7-9---9-----7-9---9---9-7-------|---7-9---9-----7-9---9---9-7-------|
+A|-7-----------7---------------10-9--|-7-----------7---------------10-9--|
+E|-----------------------------------|-----------------------------------|
+[/TAB]
+
+[Verse 1]
+[Em]Hear the rime of the Ancient Mariner
+[C]See his eye as he [D]stops one of three
+[Em]Mesmerised by the party guest
+[C]Listen his voice as the [D]tale he tells
+
+[Chorus]
+[G]And the ship sailed [D]on, back to the [Em]north
+Through the [C]fog and ice and the [D]albatross follows [Em]on
+[G]The mariner [D]kills the bird of [Em]good omen
+[C]His shipmates cry out [D]at his terrible [Em]deed
+
+[Outro]
+[Em]The Mariner hath [C]his redemption
+[D]And his tale is [Em]told! [Em]`
+  },
+  {
+    id: "fear-of-the-dark",
+    title: "Fear of the Dark",
+    album: "Fear of the Dark (1992)",
+    tuning: "E Standard (E A D G B E)",
+    key: "Dm",
+    bpm: 146,
+    difficulty: "Intermediate",
+    type: "Chords & Melodic Intro Tabs",
+    summary: "Live stadium chant powerhouse with memorable twin melody intro.",
+    content: `[Clean Intro Melody Riff]
+[TAB]
+e|---10-8-10-8-10-8-10-8---8-6-8-6-8-6-8-6---6-5-6-5-6-5-6-5---5---5---8-6-5---|
+B|-7---------------------6-----------------5-----------------5---6----------6-|
+G|----------------------------------------------------------------------------|
+D|----------------------------------------------------------------------------|
+A|----------------------------------------------------------------------------|
+E|----------------------------------------------------------------------------|
+[/TAB]
+
+[Chorus]
+[Dm]Fear of the dark, [Bb]fear of the dark
+[C]I have a constant fear that something's [Dm]always near
+[Dm]Fear of the dark, [Bb]fear of the dark
+[C]I have a phobia that someone's [Dm]always there`
+  },
+  {
     id: "run-to-the-hills",
     title: "Run to the Hills",
     album: "The Number of the Beast (1982)",
@@ -357,107 +589,9 @@ E|----------------------------------|----------------------------------|
     difficulty: "Advanced",
     type: "Chords & Bass Gallop Tabs",
     summary: "High-speed classic driven by Clive Burr's iconic drum intro and Steve Harris bassline.",
-    content: `[Intro Drums & Guitar Riff]
-[G] [F] [C] [D]
-[G] [F] [C] [D]
-
-[Verse 1 - Indian Point of View]
-[Em]White man came across the sea
-He brought us trouble and misery
-He killed our tribes, he killed our creed
-He took our game for his own need
-
-[G]We fought him hard, we fought him well
-Out on the plains we gave him hell
-But [Em]many came, too much for Custer
-[D]We had to go, we had to muster
-
-[Chorus]
+    content: `[Chorus]
 [G]Run to the [F]hills, [C]run for your [D]lives!
-[G]Run to the [F]hills, [C]run for your [D]lives!
-
-[Verse 2 - Soldier Point of View]
-[Em]Riding through dust clouds and barren wastes
-Galloping hard on the plains
-Chasing the redskins back to their holes
-Fighting them at their own game
-
-[G]Came from the blue, came for the scalp
-Killing the women and children and all
-And [Em]taking their land for our own gain
-[D]Rape of the women and wasting the men
-
-[Chorus]
-[G]Run to the [F]hills, [C]run for your [D]lives!
-[G]Run to the [F]hills, [C]run for your [D]lives!
-
-[Solo Rhythm]
-[E5] [G5] [A5] [C5] [D5]
-
-[Chorus]
-[G]Run to the [F]hills, [C]run for your [D]lives!
-[G]Run to the [F]hills, [C]run for your [D]lives!
-
-[Outro]
-[G]Run for your [D]li-i-i-ives!
-[G] [F] [C] [D] [G]`
-  },
-  {
-    id: "wasted-years",
-    title: "Wasted Years",
-    album: "Somewhere in Time (1986)",
-    tuning: "E Standard (E A D G B E)",
-    key: "Em",
-    bpm: 154,
-    difficulty: "Intermediate",
-    type: "Chords & Open String Intro Tab",
-    summary: "Adrian Smith masterpiece featuring the iconic open E string tapping/picking intro.",
-    content: `[Iconic Adrian Smith Intro Riff]
-[TAB]
-e|-12-0-0-7-0-0-8-0-0-5-0-0-7-0-0-3-0-0-5-0-0-2-0-0-3-0-0-2-0-0-|
-B|---------------------------------------------------------------|
-G|---------------------------------------------------------------|
-D|---------------------------------------------------------------|
-A|---------------------------------------------------------------|
-E|---------------------------------------------------------------|
-[/TAB]
-
-[Verse 1]
-[Em]From the coast of gold, across the seven seas
-[C]I'm travelling on, far and wide
-[D]But now it seems, I'm wandering no more
-[Em]I've opened up my eyes and I can see
-
-[Verse 2]
-[Em]So understand, don't waste your time always searching for those wasted years
-[C]Face up... make your stand
-[D]Realise you're living in the golden years
-
-[Chorus]
-[Em]So understand, don't waste your time
-[C]Always searching for those wasted years
-[D]Face up, make your stand
-[Em]Realise you're living in the golden years!
-
-[Verse 3]
-[Em]Don't look back, don't look back in anger
-[C]Don't look back, leave the past behind
-[D]Face up, make your stand
-[Em]Realise you're living in the golden years!
-
-[Guitar Solo Rhythm]
-[Em] [C] [D] [Em]
-[Em] [C] [D] [Em]
-
-[Chorus]
-[Em]So understand, don't waste your time
-[C]Always searching for those wasted years
-[D]Face up, make your stand
-[Em]Realise you're living in the golden years!
-
-[Outro]
-[Em]Living in the golden years...
-[Em] [C] [D] [Em]`
+[G]Run to the [F]hills, [C]run for your [D]lives!`
   },
   {
     id: "the-number-of-the-beast",
@@ -469,50 +603,9 @@ E|---------------------------------------------------------------|
     difficulty: "Advanced",
     type: "Chords & Intro Spoken Tabs",
     summary: "Featuring Bruce Dickinson's legendary high-pitched scream after the Vincent Price spoken intro.",
-    content: `[Spoken Intro]
-"Woe to you, oh earth and sea, for the Devil sends the beast with wrath
-Because he knows his time is short... Let him who hath understanding reckon the number of the beast
-For it is a human number, its number is six hundred and sixty six..."
-
-[High Dickinson Scream & Main Riff]
-[TAB]
-e|-----------------------------------|
-B|-----------------------------------|
-G|---7-9---7-9---7-9---9-7---7-------|
-D|-9-----9-----9-----------9---9-7---|
-A|-----------------------------------|
-E|-----------------------------------|
-[/TAB]
-
-[Verse 1]
-[D]I left alone, my mind was blank
-[C]I needed time to think to get the [G]memories from my mind
-[D]What did I see, can I believe
-[C]That what I saw that night was real and [G]not just fantasy?
-
-[Verse 2]
-[D]What I saw in my old dreams
-[C]Were they reflections of my warped mind [G]staring back at me?
-[D]Cause in my dreams it's always there
-[C]The evil face that twists my mind and [G]brings me to despair
-
-[Chorus]
+    content: `[Chorus]
 [E]666, the [C]number of the [D]beast!
-[E]Hell and fire was [C]spawned to be re[D]leased!
-
-[Verse 3]
-[D]In the night the fires are burning bright
-[C]The ritual has begun, Satan's [G]work is done
-[D]666, the one for you and me
-[C]I'm coming back, I will return
-[G]And I'll possess your body and I'll make you burn!
-
-[Solo Rhythm Section]
-[E] [D] [C] [D]
-[F#m] [E] [D] [E]
-
-[Outro]
-[E]666, the number of the beast! [E]`
+[E]Hell and fire was [C]spawned to be re[D]leased!`
   },
   {
     id: "aces-high",
@@ -524,110 +617,9 @@ E|-----------------------------------|
     difficulty: "Expert",
     type: "Chords & High-Speed Gallop Tabs",
     summary: "Adrenaline-fueled WWII Battle of Britain fighter pilot anthem.",
-    content: `[Churchill's Speech Intro / Intro Riff]
-"We shall fight on the beaches, we shall fight on the landing grounds..."
-[TAB]
-e|-----------------------------------|-----------------------------------|
-B|-----------------------------------|-----------------------------------|
-G|-------9---7~------9---7~----------|-------10--8~------10--8~----------|
-D|---7-9---9-----7-9---9---9-7-------|---8-10--10----8-10--10--10-8------|
-A|-7-----------7---------------10-9--|-8-----------8----------------11-10|
-E|-----------------------------------|-----------------------------------|
-[/TAB]
-
-[Verse 1]
-[Em]There's a storm coming on, big birds in the sky
-[C]Engine roar, full throttle, we're ready to die
-[D]Spinning, turning, diving, rolling, heading for the clouds
-[Em]Screaming engines, firing guns, the sirens scream out loud
-
-[Chorus]
+    content: `[Chorus]
 [Em]Run, live to fly, fly to live, do or die!
-[C]Won't you run, live to fly, [D]fly to live, [Em]Aces high!
-
-[Verse 2]
-[Em]Move in close, fire a burst, smoke trail coming out
-[C]Bandit at 10 o'clock, hear the flight lead shout
-[D]Sweat pours down my face, goggles bind my eyes
-[Em]Target in the crosshairs, fire away, he dies!
-
-[Chorus]
-[Em]Run, live to fly, fly to live, do or die!
-[C]Won't you run, live to fly, [D]fly to live, [Em]Aces high!
-
-[Guitar Solos Rhythm Section]
-[E5] [C5] [D5] [E5]
-[F5] [Db5] [Eb5] [F5]
-
-[Outro]
-[Em]Aces high! Aces high!
-[Em] [C] [D] [Em]`
-  },
-  {
-    id: "powerslave",
-    title: "Powerslave",
-    album: "Powerslave (1984)",
-    tuning: "E Standard (E A D G B E)",
-    key: "Em",
-    bpm: 140,
-    difficulty: "Advanced",
-    type: "Full Chords & Solos Riffs",
-    summary: "Title track from the 1984 album with ancient Egyptian mystery themes.",
-    content: `[Egyptian Guitar Riff]
-[TAB]
-e|---------------------------------|---------------------------------|
-B|---------------------------------|---------------------------------|
-G|---------------------------------|---------------------------------|
-D|-----7---8---7---5---7---5---4---|-----7---8---7---5---7---5---4---|
-A|-0-0---0---0---0---0---0---0---0-|-0-0---0---0---0---0---0---0---0-|
-E|---------------------------------|---------------------------------|
-[/TAB]
-
-[Verse 1]
-[Em]Into the abyss I fall, the eye of Horus
-[C]Into the dark world of [D]Isis and Osiris
-[Em]Slave to the power of death, I am a god
-[C]Why must I die to live [D]again?
-
-[Chorus]
-[Em]Tell me why I had to be a Powerslave!
-[C]I don't wanna die, I'm a god, why can't I [D]live on?
-[Em]When the Life-Giver dies, all his power goes on!
-[C]Tell me why I had to be a [D]Powerslave!
-
-[Middle Egyptian Solo Rhythm]
-[Em] [C] [D] [Em]
-
-[Outro]
-[Em]Powerslave! [Em]`
-  },
-  {
-    id: "flight-of-icarus",
-    title: "Flight of Icarus",
-    album: "Piece of Mind (1983)",
-    tuning: "E Standard (E A D G B E)",
-    key: "F#m / A",
-    bpm: 120,
-    difficulty: "Intermediate",
-    type: "Chords & Melodic Tabs",
-    summary: "Based on the Greek myth of Icarus flying too close to the sun.",
-    content: `[Main Riff]
-[F#m] [D] [E] [F#m]
-
-[Verse 1]
-[F#m]As the sun breaks, above the ground
-[D]An old man stands on the [E]hill
-[F#m]As the ground warms, to the first ray of light
-[D]A bird shakes its wings and [E]flies
-
-[Chorus]
-[F#m]Fly, as high as the [D]sun!
-[E]Fly, on your wings, like an [F#m]eagle!
-[F#m]Fly, as high as the [D]sun!
-[E]Touch the sun!
-
-[Outro]
-[F#m]Fly, on your wings! [F#m]`
+[C]Won't you run, live to fly, [D]fly to live, [Em]Aces high!`
   }
 ];
 

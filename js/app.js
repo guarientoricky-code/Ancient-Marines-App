@@ -57,12 +57,17 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function renderAlbumFilters() {
-    const albums = ['ALL', ...new Set(SONGS_DATABASE.map(s => s.album.split(' (')[0]))];
-    filterPillsEl.innerHTML = albums.map(album => `
-      <button class="filter-pill ${album === 'ALL' ? 'active' : ''}" data-album="${album}">
-        ${album === 'ALL' ? 'Tutti gli Album' : album}
-      </button>
-    `).join('');
+    const albums = ['ALL', 'BAND_PRIORITY', ...new Set(SONGS_DATABASE.map(s => s.album.split(' (')[0]))];
+    filterPillsEl.innerHTML = albums.map(album => {
+      let label = album;
+      if (album === 'ALL') label = 'Tutti gli Album';
+      else if (album === 'BAND_PRIORITY') label = '⭐ Scaletta Band (9 Canzoni)';
+      return `
+        <button class="filter-pill ${album === 'ALL' ? 'active' : ''}" data-album="${album}">
+          ${label}
+        </button>
+      `;
+    }).join('');
   }
 
   function renderSongGrid(songs) {
@@ -80,12 +85,13 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="song-card" data-song-id="${song.id}">
         <div class="song-card-header">
           <h3 class="song-title">${song.title}</h3>
-          ${mySetlist.includes(song.id) ? '<span title="In Scaletta" style="color: var(--text-gold);">★</span>' : ''}
+          ${mySetlist.includes(song.id) ? '<span title="In Scaletta" style="color: var(--text-gold); font-size: 1.2rem;">★</span>' : ''}
         </div>
         <div class="song-album">${song.album}</div>
         <div class="song-tags">
+          ${song.isBandPriority ? '<span class="badge badge-crimson">⭐ Scaletta</span>' : ''}
           <span class="badge">Tonalità: ${song.key}</span>
-          <span class="badge badge-crimson">BPM: ${song.bpm}</span>
+          <span class="badge">BPM: ${song.bpm}</span>
           <span class="badge">${song.tuning.split(' ')[0]}</span>
         </div>
       </div>
@@ -261,14 +267,22 @@ document.addEventListener('DOMContentLoaded', () => {
     const query = searchInputEl.value.toLowerCase().trim();
 
     const filtered = SONGS_DATABASE.filter(song => {
-      const matchesAlbum = activeAlbumFilter === 'ALL' || song.album.startsWith(activeAlbumFilter);
+      let matchesFilter = false;
+      if (activeAlbumFilter === 'ALL') {
+        matchesFilter = true;
+      } else if (activeAlbumFilter === 'BAND_PRIORITY') {
+        matchesFilter = !!song.isBandPriority;
+      } else {
+        matchesFilter = song.album.startsWith(activeAlbumFilter);
+      }
+
       const matchesQuery = !query || 
         song.title.toLowerCase().includes(query) ||
         song.album.toLowerCase().includes(query) ||
         song.key.toLowerCase().includes(query) ||
         song.content.toLowerCase().includes(query);
 
-      return matchesAlbum && matchesQuery;
+      return matchesFilter && matchesQuery;
     });
 
     renderSongGrid(filtered);
