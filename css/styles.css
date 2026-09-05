@@ -503,7 +503,8 @@ body {
 .toolbar-group {
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .toolbar-label {
@@ -512,6 +513,14 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 700;
+  white-space: nowrap;
+}
+
+.transpose-actions-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  flex-wrap: nowrap;
 }
 
 .transpose-controls {
@@ -521,25 +530,52 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.12);
   border-radius: var(--radius-sm);
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .transpose-btn {
   background: transparent;
   border: none;
   color: var(--text-gold-bright);
-  padding: 0.35rem 0.75rem;
+  padding: 0.35rem 0.65rem;
   cursor: pointer;
   font-size: 1.1rem;
   font-weight: 700;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  user-select: none;
+}
+
+.transpose-btn:hover,
+.transpose-btn:active {
+  background: rgba(245, 158, 11, 0.2);
+  color: var(--text-gold-bright);
 }
 
 .transpose-value {
-  padding: 0.35rem 0.5rem;
+  padding: 0.35rem 0.35rem;
   font-family: var(--font-mono);
   font-weight: 700;
-  color: var(--text-main);
-  min-width: 36px;
+  color: var(--text-gold-bright);
+  min-width: 28px;
   text-align: center;
+  flex-shrink: 0;
+}
+
+.btn-reset-diteggiatura {
+  padding: 0.4rem 0.55rem;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.scroll-speed-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 
 .scroll-speed-slider {
@@ -793,13 +829,30 @@ body {
     top: 105px;
     flex-direction: column;
     align-items: stretch;
-    gap: 0.5rem;
+    gap: 0.6rem;
     padding: 0.6rem;
   }
 
   .toolbar-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-between;
     width: 100%;
+    gap: 0.4rem;
+  }
+
+  .transpose-actions-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    flex-shrink: 0;
+  }
+
+  .scroll-speed-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
   }
 
   .song-viewer {

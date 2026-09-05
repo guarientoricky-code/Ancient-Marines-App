@@ -93,23 +93,27 @@
       <!-- Live Performance Toolbar -->
       <div class="live-toolbar">
         <div class="toolbar-group">
-          <span class="toolbar-label">Trasposizione Accordi:</span>
-          <div class="transpose-controls">
-            <button class="transpose-btn" id="btn-transpose-minus" title="Abbassa di 1 semitono">-</button>
-            <span class="transpose-value" id="transpose-value">0</span>
-            <button class="transpose-btn" id="btn-transpose-plus" title="Alza di 1 semitono">+</button>
+          <span class="toolbar-label">Trasposizione:</span>
+          <div class="transpose-actions-wrapper">
+            <div class="transpose-controls">
+              <button class="transpose-btn" id="btn-transpose-minus" title="Abbassa di 1 semitono">-</button>
+              <span class="transpose-value" id="transpose-value">0</span>
+              <button class="transpose-btn" id="btn-transpose-plus" title="Alza di 1 semitono">+</button>
+            </div>
+            <button class="btn btn-reset-diteggiatura" id="btn-transpose-reset" title="Mostra gli accordi con le posizioni originali (diteggiatura originale)">
+              Reset (E)
+            </button>
           </div>
-          <button class="btn" id="btn-transpose-reset" style="padding: 0.4rem 0.6rem; font-size: 0.8rem;" title="Mostra gli accordi con le posizioni originali (diteggiatura originale)">
-            Reset Diteggiatura (E)
-          </button>
         </div>
 
         <div class="toolbar-group">
           <button class="btn" id="btn-scroll-toggle">
             <span>▶ Auto-Scroll</span>
           </button>
-          <span class="toolbar-label" style="margin-left: 0.5rem;">Velocità:</span>
-          <input type="range" id="scroll-speed" class="scroll-speed-slider" min="1" max="10" value="2" title="Regola velocità scorrimento">
+          <div class="scroll-speed-wrapper">
+            <span class="toolbar-label">Velocità:</span>
+            <input type="range" id="scroll-speed" class="scroll-speed-slider" min="1" max="10" value="2" title="Regola velocità scorrimento">
+          </div>
         </div>
       </div>
 
