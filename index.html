@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Ancient Mariners - Iron Maiden Testi, Accordi & Tabulati</title>
-  <meta name="description" content="Web App per la cover band 'The Ancient Mariners'. Raccoglie tutti i testi con accordi, tabulati di chitarra/basso e strumenti live per i brani degli Iron Maiden.">
+  <meta name="description" content="Web App per la cover band 'The Ancient Mariners'. Raccoglie tutti i testi con accordi, tabulati di chitarra/basso e strumenti live per i brani degli Iron Maiden in accordatura C Standard.">
 
   <!-- OpenGraph / Social Meta -->
   <meta property="og:title" content="The Ancient Mariners - Iron Maiden Cover Band">
-  <meta property="og:description" content="Testi, accordi, tabulati, trasposizione tonalità e auto-scroll per suonare live i classici degli Iron Maiden.">
+  <meta property="og:description" content="Testi, accordi, tabulati, trasposizione tonalità C Standard (-4 semitoni) e auto-scroll per suonare live i classici degli Iron Maiden.">
   <meta property="og:image" content="assets/banner.jpg">
 
   <!-- Stylesheet -->
@@ -26,7 +26,7 @@
         <img src="assets/banner.jpg" alt="The Ancient Mariners Banner Logo">
         <div class="brand-text-container">
           <div class="brand-title">THE ANCIENT MARINERS</div>
-          <div class="brand-subtitle">IRON MAIDEN TRIBUTE BAND</div>
+          <div class="brand-subtitle">IRON MAIDEN TRIBUTE BAND (C TUNING)</div>
         </div>
       </a>
 
@@ -46,7 +46,7 @@
     <img src="assets/banner.jpg" alt="The Ancient Mariners Live Banner">
     <div class="hero-overlay">
       <h1>CHORDS & TABS ARCHIVE</h1>
-      <p>Testi, accordi, tabulati e strumenti live per il repertorio Iron Maiden</p>
+      <p>Testi, accordi in Accordatura C, tabulati e strumenti live per il repertorio Iron Maiden</p>
     </div>
   </section>
 
@@ -99,7 +99,10 @@
             <span class="transpose-value" id="transpose-value">0</span>
             <button class="transpose-btn" id="btn-transpose-plus" title="Alza di 1 semitono">+</button>
           </div>
-          <button class="btn" id="btn-transpose-reset" style="padding: 0.4rem 0.6rem; font-size: 0.8rem;">Reset</button>
+          <button class="btn" id="btn-transpose-c" style="background: rgba(245, 158, 11, 0.2); border-color: var(--text-gold); color: var(--text-gold-bright); font-weight: 700;" title="Imposta subito l'accordatura della band in Do (C Standard: -4 Semitoni)">
+            🎸 Tuning Do (C: -4)
+          </button>
+          <button class="btn" id="btn-transpose-reset" style="padding: 0.4rem 0.6rem; font-size: 0.8rem;">Reset (E)</button>
         </div>
 
         <div class="toolbar-group">
@@ -120,8 +123,8 @@
             <strong id="viewer-album">Piece of Mind (1983)</strong>
           </div>
           <div class="viewer-meta-item">
-            <span>🎸 Accordatura:</span>
-            <strong id="viewer-tuning">E Standard</strong>
+            <span>🎸 Accordatura Band:</span>
+            <strong id="viewer-tuning" style="color: var(--text-gold-bright);">C Standard / Drop (-4 Semitoni)</strong>
           </div>
           <div class="viewer-meta-item">
             <span>🎵 Tonalità Orig:</span>
@@ -135,12 +138,12 @@
 
         <!-- YouTube Audio Links Section -->
         <div class="youtube-actions-bar" style="margin-top: 1rem; display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center;">
-          <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">🎧 Ascolta Audio:</span>
+          <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 600;">🎧 Audio & Backing Track:</span>
           <a id="link-yt-original" href="#" target="_blank" class="btn" style="background: rgba(239, 68, 68, 0.15); border-color: rgba(239, 68, 68, 0.4); color: var(--accent-crimson-bright); text-decoration: none;">
             🔴 Originale YouTube
           </a>
           <a id="link-yt-eb" href="#" target="_blank" class="btn" style="background: rgba(245, 158, 11, 0.15); border-color: rgba(245, 158, 11, 0.4); color: var(--text-gold-bright); text-decoration: none;">
-            🎸 Tonalità Abbassata (Eb / Live)
+            🎸 C Tuning / Lower Key Track
           </a>
           <button id="btn-yt-embed" class="btn" style="background: var(--bg-hover);">
             📺 Player Integrato
@@ -187,7 +190,7 @@
 
   <!-- Site Footer -->
   <footer class="site-footer">
-    <p><strong>The Ancient Mariners</strong> — Iron Maiden Tribute Band Web App</p>
+    <p><strong>The Ancient Mariners</strong> — Iron Maiden Tribute Band (C Tuning) Web App</p>
     <p style="font-size: 0.8rem; margin-top: 0.4rem; color: var(--text-muted);">
       Ottimizzato per Smartphone, Tablet e PC | Pronto per <a href="https://render.com" target="_blank" class="footer-link">Render.com</a>
     </p>

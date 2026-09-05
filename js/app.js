@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const btnTransposeMinus = document.getElementById('btn-transpose-minus');
   const btnTransposePlus = document.getElementById('btn-transpose-plus');
   const btnTransposeReset = document.getElementById('btn-transpose-reset');
+  const btnTransposeC = document.getElementById('btn-transpose-c');
   const transposeValueEl = document.getElementById('transpose-value');
   
   // Auto-scroll
@@ -50,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // State
   let currentSong = null;
-  let currentSemitones = 0;
+  let currentSemitones = -4; // Default to Band's C Tuning (-4 semitones / 2 full steps down!)
   let activeAlbumFilter = 'ALL';
   let isAutoScrolling = false;
   let autoScrollInterval = null;
@@ -101,9 +102,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="song-album">${song.album}</div>
         <div class="song-tags">
           ${song.isBandPriority ? '<span class="badge badge-crimson">⭐ Scaletta</span>' : ''}
-          <span class="badge">Tonalità: ${song.key}</span>
+          <span class="badge" style="border-color: var(--text-gold); color: var(--text-gold-bright);">Tuning C: ${MusicTransposer.transposeChord(song.key, -4)}</span>
           <span class="badge">BPM: ${song.bpm}</span>
-          <span class="badge">${song.tuning.split(' ')[0]}</span>
         </div>
       </div>
     `).join('');
@@ -122,22 +122,22 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!song) return;
 
     currentSong = song;
-    currentSemitones = 0;
+    currentSemitones = -4; // Default to Band C-Tuning (-4 semitones)
     updateTransposeUI();
     stopAutoScroll();
 
     songTitleEl.textContent = song.title;
     songAlbumEl.textContent = song.album;
-    songTuningEl.textContent = song.tuning;
-    songKeyEl.textContent = song.key;
+    songTuningEl.textContent = "C Standard (-4 Semitoni)";
+    songKeyEl.textContent = `${song.key} (Orig) → ${MusicTransposer.transposeChord(song.key, -4)} (In C)`;
     songBpmEl.textContent = `${song.bpm} BPM`;
 
     // Setup YouTube links
     const originalYtQuery = encodeURIComponent(`Iron Maiden ${song.title} official audio`);
-    const ebYtQuery = song.youtubeEbSearch || encodeURIComponent(`Iron Maiden ${song.title} Live Eb tuning lower key`);
+    const cTuningYtQuery = encodeURIComponent(`Iron Maiden ${song.title} C tuning backing track 4 semitones lower`);
 
     linkYtOriginal.href = song.youtubeId ? `https://www.youtube.com/watch?v=${song.youtubeId}` : `https://www.youtube.com/results?search_query=${originalYtQuery}`;
-    linkYtEb.href = `https://www.youtube.com/results?search_query=${ebYtQuery}`;
+    linkYtEb.href = `https://www.youtube.com/results?search_query=${cTuningYtQuery}`;
 
     // Reset YouTube embed
     ytEmbedContainer.style.display = 'none';
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="chord-diagram-title">Accordo: ${chordName}</div>
         <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 4px;">Capotasto: Fret ${chordInfo.baseFret}</div>
         <div class="chord-grid-visual">
-          E A D G B E<br>
+          C F A# D# G C<br>
           ${chordInfo.frets.split('').join(' ')}<br>
           <span style="color: var(--text-gold);">${chordInfo.fingers.split('').join(' ')}</span>
         </div>
@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       diagramHtml = `
         <div class="chord-diagram-title">${chordName}</div>
-        <div style="font-size: 0.85rem; color: var(--text-muted);">Posizione base tastiera</div>
+        <div style="font-size: 0.85rem; color: var(--text-muted);">Posizione tastiera in Do (C)</div>
       `;
     }
 
@@ -252,11 +252,14 @@ document.addEventListener('DOMContentLoaded', () => {
     transposeValueEl.textContent = `${sign}${currentSemitones}`;
 
     if (currentSemitones === 0) {
-      transposeHintBadge.style.display = 'none';
+      transposeHintBadge.style.display = 'block';
+      transposeHintText.textContent = 'Tonalità Originale da Studio (E Standard)';
     } else {
       transposeHintBadge.style.display = 'block';
-      if (currentSemitones === -1) {
-        transposeHintText.textContent = '-1 Semitono (Accordatura Eb - Mezzo tono sotto / Ideale per il Live e per la Voce)';
+      if (currentSemitones === -4) {
+        transposeHintText.textContent = '🎸 Accordatura Band: DO (C Standard / -4 Semitoni - 2 Toni sotto)';
+      } else if (currentSemitones === -1) {
+        transposeHintText.textContent = '-1 Semitono (Accordatura Eb - Mezzo tono sotto)';
       } else if (currentSemitones === -2) {
         transposeHintText.textContent = '-2 Semitoni (Accordatura D Standard - 1 Tono sotto)';
       } else {
@@ -367,7 +370,7 @@ document.addEventListener('DOMContentLoaded', () => {
       <div class="setlist-item">
         <div>
           <strong>${index + 1}. ${song.title}</strong>
-          <div style="font-size: 0.8rem; color: var(--text-muted);">${song.album} | ${song.key}</div>
+          <div style="font-size: 0.8rem; color: var(--text-muted);">${song.album} | Tuning C: ${MusicTransposer.transposeChord(song.key, -4)}</div>
         </div>
         <div style="display: flex; gap: 0.5rem;">
           <button class="btn btn-open-setlist" data-id="${song.id}">Apri</button>
@@ -443,6 +446,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnTransposeReset.addEventListener('click', () => {
       currentSemitones = 0;
+      updateTransposeUI();
+      renderSongContent();
+    });
+
+    btnTransposeC.addEventListener('click', () => {
+      currentSemitones = -4;
       updateTransposeUI();
       renderSongContent();
     });
