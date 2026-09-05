@@ -473,40 +473,65 @@ For the [D]feel of the steel
 [Em] [D] [C] [D]
 [Em] [D] [C] [D]
 
-[Verse 1]
-[Em]Infinite dreams I can't deny them
-[D]Having them repeatedly, I try to hide them
-[C]’Cause I’m tortured by the thought of sleep
-[D]I pray the Lord my soul to keep
+[Verse 1 - Clean Intro]
+[Em]Infinite dreams, I can't deny them
+[D]Infinity is hard to comprehend
+[C]I couldn't hear those screams
+[D]Even in my wildest dreams
+[Em]Suffocation, waking in a sweat
+[D]Scared to fall asleep again
+[C]In case the dream begins again
+[D]Someone chasing, I cannot move
+[Em]Standing rigid, a nightmare's statue
+[D]What a dream, when will it end?
+[C]And will I [D]transcend?
 
-[Verse 2]
-[Em]There’s a nightmare waiting right outside my door
-[D]Creeping through the shadows on the floor
-[C]A paralyzing fear that takes my breath
-[D]Is this a vision of my death?
+[Verse 2 - Building Up]
+[Em]Restless sleep, the mind's in turmoil
+[D]One nightmare ends, another fertile
+[C]It's getting to me, so scared to sleep
+[D]But scared to wake now, in too deep
+[Em]Even though its reached new heights
+[D]I rather like the restless nights
+[C]It makes me wonder, makes me think
+[D]There's more to this, I'm on the brink
 
-[Heavy Tempo Change Riff]
-[Em] [C] [D] [Em]
+[Bridge 1]
+[Em]It's not the fear of what's beyond
+[C]It's just that I might not respond
+[D]I have an interest, almost craving
+[B5]But would I like to get too far in?
+[Em]It can't be all coincidence
+[C]Too many things are evident
+[D]You tell me you're an unbeliever
+[B5]Spiritualist? Well, me I'm neither
 
-[Verse 3]
-[Em]There's a time to live and a time to die
-[C]When it's time to meet the [D]maker in the sky
-[Em]Will I wake up in another place?
-[C]Or disappear without a [D]trace?
+[Bridge 2 - Heavier Tempo]
+[Em]But wouldn't you like to know the truth?
+[C]Of what's out there, to have the proof?
+[D]And find out just which side you're on
+[Bm]Where would you end in Heaven or in Hell?
+[C]Yeah, [D]oh!
 
-[Chorus]
-[Em]Infinite dreams, [C]suffocating me!
-[D]Help me, please, set me [Em]free!
-[Em]Infinite dreams, [C]suffocating me!
-[D]Help me, please, set me [Em]free!
+[Heavy Section / Screams]
+[Em]Help me
+[C]Help me to find my true self without [D]seeing the future
+[Em]Save me
+[C]Save me from torturing myself even [D]within my dreams, ow
 
-[Fast Solos Section]
+[Guitar Solos Section]
 [E5] [D5] [C5] [D5]
 [E5] [D5] [C5] [D5]
 
 [Outro]
-[Em]Infinite dreams...
-[Em] [D] [C] [D] [Em]`
+[Em]There's got to be
+[C]Just more to it than this
+[D]Or tell me, why do we exist?
+[Em]I'd like to think that when I die
+[C]I'd get a chance, another time
+[D]And to return and live again
+[Em]Reincarnate, play the game
+[C]Again and again and [D]again and again!`
   },
   {
     id: "hallowed-be-thy-name",
