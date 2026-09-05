@@ -325,7 +325,7 @@ E|----------------------------|----------------------------|
     youtubeId: "p32b5756k0g", // Studio Original
     youtubeCId: "fJEJyxYIKPs", // Band C Tuning Track
     youtubeCLink: "https://youtu.be/fJEJyxYIKPs",
-    summary: "Early Maiden progressive heavy metal masterpiece with intricate bass and guitar arpeggios.",
+    summary: "Early Maiden progressive heavy metal masterpiece with custom performance lyrics for The Ancient Mariners.",
     content: `[Fast Intro Arpeggio Riff]
 [TAB]
 e|-12-0-0-10-0-0-8-0-0-7-0-0-8-0-0-7-0-0-5-0-0-7-0-0-|
@@ -337,27 +337,46 @@ E|----------------------------------------------------|
 [/TAB]
 
 [Verse 1]
-[Em]I've been looking so long at these pictures of you
-[C]That I almost believe that they're [D]real
-[Em]I've been living so long with my memories of you
-[C]That I almost forget the way I [D]feel
+Oh, oh, yeah!
+[Em]I've been lookin' so long for you now
+[C]You won't get away from my [D]grasp
+[Em]You've been living so long in hiding, in hiding
+[C]Behind that false [D]mask
+[Em]And you know that I know that
+[C]You ain't got long now to [D]last
+[Em]Your looks and your feelings
+[C]Are just the remains of your [D]past
 
 [Verse 2]
-[Em]You're standing there all alone in the dark
-[C]With a dagger clutched in your [D]hand
-[Em]You wait for the night and the shadow to fall
-[C]As you carry out your [D]plan!
+[Em]You're standing in the wings
+[C]There you wait, for the curtain to [D]fall
+[Em]But knowing the terror and holding
+[C]You have on us [D]all
+[Em]Yeah, I know that you're gonna
+[C]Scratch me and maim me and [D]maul
+[Em]And you know I'm helpless from
+[C]Your mesmerizing [D]catcall, ooh!
 
 [Chorus]
-[Em]Keep your distance, walk away, don't look back
-[C]Phantom of the [D]Opera is gonna get [Em]you!
-[Em]Keep your distance, walk away, don't look back
-[C]Phantom of the [D]Opera is gonna get [Em]you!
+[Em]Keep your distance, walk away, don't take his bait
+[C]Don't you stray, don't fade a[D]way
+[Em]Watch your step, he's out to get you, come what may
+[C]Don't you stray from the narrow [D]way
 
 [Progressive Middle Section & Solo Rhythm]
 [Em] [D] [C] [B5]
 [Em] [D] [C] [B5]
 [C5] [D5] [E5]
+
+[Verse 3]
+[Em]I'm running and hiding
+[C]In my dreams, you're always [D]there
+[Em]You're the phantom of the opera
+[C]You're the devil, you're just out to [D]scare
+[Em]You damaged my mind and my soul
+[C]It just floats through the [D]air
+[Em]You haunt me, you taunt me
+[C]You torture me back at your [D]lair!
 
 [Outro Section]
 [Em] [C] [D] [Em]`
