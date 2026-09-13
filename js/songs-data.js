@@ -925,6 +925,96 @@ E|-----------------------------------|-----------------------------------|
 [C]Fly to live, [D]do or die!
 [Em]Won't you run, live to fly!
 [C]Fly to live, [D]aces high!`
+  },
+  {
+    id: "2-minutes-to-midnight",
+    title: "2 Minutes to Midnight",
+    album: "Powerslave (1984)",
+    tuning: "E Standard (E A D G B E)",
+    key: "A / A5",
+    bpm: 160,
+    difficulty: "Advanced",
+    type: "Chords & Iconic Opening Riff Tab",
+    isBandPriority: true,
+    youtubeId: "9qbRHY1l0qc", // Studio Original
+    youtubeCId: "s6EWRjah8Bg", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/s6EWRjah8Bg",
+    summary: "Anti-war heavy metal anthem with custom performance lyrics for The Ancient Mariners.",
+    content: `[Iconic Adrian Smith / Dave Murray Main Riff]
+[TAB]
+e|-----------------------------------|-----------------------------------|
+B|-----------------------------------|-----------------------------------|
+G|-2---2-0---0-2~----2---2-0---0-2~--|-2---2-0---0-2~--------------------|
+D|-2-4-----4---------2-4-----4-------|-2-4-----4--------5-------7-------|
+A|-0-----------------0---------------|-0----------------5-------7-------|
+E|-----------------------------------|------------------3-------5-------|
+[/TAB]
+
+[Verse 1]
+[A5]Kill for gain or shoot to maim, but [G5]we don't need a [D5]reason
+[A5]The Golden Goose is on the loose and [G5]never out of [D5]season
+[A5]Blackened pride still burns inside this [G5]shell of bloody [D5]treason
+[A5]Here's my gun for a barrel of fun, for the [G5]love of living [D5]death
+
+[Pre-Chorus]
+[F5]The killer's breed or the [G5]demon's seed
+[F5]The glamour, the fortune, the [G5]pain
+[F5]Go to war again, [G5]blood is freedom's stain
+[F5]Don't you pray for my [G5]soul anymore!
+
+[Chorus]
+[A5]Two minutes to midnight!
+[F5]The hands that [G5]threaten doom
+[A5]Two minutes to midnight!
+[F5]To kill the un[G5]born in the womb!
+
+[Verse 2]
+[A5]The blind men shout, "Let the creatures out, we'll [G5]show the unbe[D5]lievers"
+[A5]Napalm screams of human flames for a [G5]prime-time Belsen [D5]feast, yeah!
+[A5]As the reasons for the carnage cut their [G5]meat and lick the [D5]gravy
+[A5]We oil the jaws of the war machine and [G5]feed it with our [D5]babies
+
+[Pre-Chorus]
+[F5]The killer's breed or the [G5]demon's seed
+[F5]The glamour, the fortune, the [G5]pain
+[F5]Go to war again, [G5]blood is freedom's stain
+[F5]Don't you pray for my [G5]soul anymore!
+
+[Chorus]
+[A5]Two minutes to midnight!
+[F5]The hands that [G5]threaten doom
+[A5]Two minutes to midnight!
+[F5]To kill the un[G5]born in the womb!
+
+[Verse 3 / Breakdown]
+[A5]The body bags and little rags of [G5]children torn in [D5]two
+[A5]And the jellied brains of those who remain to [G5]put the finger right on [D5]you
+[A5]As the madmen play on words and [G5]make us all dance to their [D5]song
+[A5]To the tune of starving millions, to [G5]make a better kind of [D5]gun
+
+[Guitar Solos Section]
+[A5] [G5] [D5] [A5]
+[F5] [G5] [A5]
+
+[Pre-Chorus]
+[F5]The killer's breed or the [G5]demon's seed
+[F5]The glamour, the fortune, the [G5]pain
+[F5]Go to war again, [G5]blood is freedom's stain
+[F5]Don't you pray for my [G5]soul anymore!
+
+[Chorus]
+[A5]Two minutes to midnight!
+[F5]The hands that [G5]threaten doom
+[A5]Two minutes to midnight!
+[F5]To kill the un[G5]born in the womb!
+
+[Outro]
+[A5]Midnight, midnight, midnight
+It's all night!
+[A5]Midnight, midnight, midnight
+It's all night!
+[A5]Midnight...
+All night!`
   }
 ];
 
