@@ -723,6 +723,136 @@ If you're gonna die
 [A5]Gonna cry, [G5]just move a[D5]long
 [A5]If you're gonna die...
 [A5]Die!`
+  },
+  {
+    id: "rime-of-the-ancient-mariner",
+    title: "Rime of the Ancient Mariner",
+    album: "Powerslave (1984)",
+    tuning: "E Standard (E A D G B E)",
+    key: "Em",
+    bpm: 144,
+    difficulty: "Expert",
+    type: "Chords, Riffs & Epic Spoken Section",
+    isBandPriority: true,
+    youtubeId: "OSZX4U55wRI", // Studio Original
+    youtubeCId: "pHIR4EZbR70", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/pHIR4EZbR70",
+    summary: "13-minute epic masterpiece based on Samuel Taylor Coleridge's poem with custom performance lyrics.",
+    content: `[Intro Heavy Riff]
+[Em] [D] [C] [D]
+[Em] [D] [C] [D]
+
+[Verse 1]
+[Em]Hear the rime of the ancient mariner
+[D]See his eye as he stops one of three
+[C]Mesmerizes one of the wedding guests
+[D]Stay here and listen to the nightmares of the sea
+[Em]And the music plays on, as the bride passes by
+[D]Caught by his spell and the mariner tells his [C]tale [D]
+
+[Verse 2]
+[Em]Driven south to the land of the snow and ice
+[D]To a place where nobody's been
+[C]Through the snow fog flies on the albatross
+[D]Hailed in God's name, hoping good luck it brings
+[Em]And the ship sails on, back to the North
+[D]Through the fog and ice and the albatross follows [C]on [D]
+
+[Verse 3]
+[Em]The mariner kills the bird of good omen
+[D]His shipmates cry against what he's done
+[C]But when the fog clears, they justify him
+[D]And make themselves a part of the crime
+[Em]Sailing on and on and north across the sea
+[D]Sailing on and on and north 'til all is [C]calm [D]
+
+[Verse 4]
+[Em]The albatross begins with its vengeance
+[D]A terrible curse, a thirst has begun
+[C]His shipmates blame bad luck on the mariner
+[D]About his neck the dead bird is hung
+[Em]And the curse goes on and on and on at sea
+[D]And the thirst goes on and on for them and [C]me [D]
+
+[Atmospheric Middle Section / Spoken Word]
+[Em]Day after day, day after day, we stuck, no breath nor motion
+[C]As idle as a painted ship up[D]on a painted ocean
+[Em]Water, water everywhere and all the boards did shrink
+[C]Water, water everywhere nor [D]any drop to drink
+
+[Narrative Section]
+[Em]"There", calls the mariner, "There comes a ship over the line"
+[D]"But how can she sail with no wind in her sails and no tide?"
+[Em]"See, onward she comes"
+[D]"Onward she nears, out of the sun"
+[Em]"See, she has no crew, she has no life"
+[D]"Wait but there's two"
+[C]Death and she, Life in Death, they throw their [D]dice for the crew
+[C]She wins the mariner and he belongs to [D]her now
+
+[Heavy Drop Section]
+[Em]Then, crew one by one
+[D]They drop down dead, two hundred men
+[Em]She, she, Life-in-Death
+[D]She lets him live, her chosen one
+
+[Spoken Verse]
+[Em]One after one by the star dogged moon
+[C]Too quick for groan or sigh
+[Em]Each turned his face with a ghastly pang
+[C]And cursed me with his eye
+[Em]Four times 50 living men
+[C](And I heard nor sigh nor groan)
+[Em]With heavy thump, a lifeless lump
+[C]They dropped down, one by one
+
+[Verse 5]
+[Em]The curse it lives on in their eyes
+[D]The mariner he wished he'd die
+[C]Along with the sea creatures
+[D]But they lived on, so did he
+[Em]And by the light of the moon
+[D]He prays for their beauty not doom
+[C]With heart he blesses them
+[D]God's creatures all of them too
+
+[Release / Bass & Guitar Lead Riff]
+[Em]Then the spell starts to break
+[D]The albatross falls from his neck
+[C]Sinks down like lead into the sea
+[D]Then down in falls comes the rain, ha, ha, ha
+
+[Verse 6]
+[Em]Hear the groans of the long dead seamen
+[D]See them stir and they start to rise
+[C]Bodies lifted by good spirits
+[D]None of them speak and they're lifeless in their eyes
+[Em]And revenge is still sought, penance starts again
+[D]Cast into a trance and the nightmare carries [C]on [D]
+
+[Solos & Fast Instrumental Gallop]
+[E5] [D5] [C5] [D5]
+[E5] [D5] [C5] [D5]
+
+[Verse 7]
+[Em]Now the curse is finally lifted
+[D]And the mariner sights his home
+[C]Spirits go from the long dead bodies
+[D]Form their own light and the mariner's left alone
+[Em]And then a boat came sailing towards him
+[D]It was a joy he could not believe
+[C]The pilot's boat, his son and the hermit
+[D]Penance of life will fall onto him
+
+[Outro Section]
+[Em]And the ship it sinks like lead into the sea
+[D]And the hermit shrives the mariner of his sins
+[C]The mariner's bound to tell of his story
+[D]To tell this tale wherever he goes
+[Em]To teach God's word by his own example
+[D]That we must love all things that God made
+[C]And the wedding guest's a sad and wiser man
+[D]And the tale goes on and on and on and [Em]on`
   }
 ];
 
