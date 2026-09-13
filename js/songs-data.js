@@ -1015,6 +1015,96 @@ It's all night!
 It's all night!
 [A5]Midnight...
 All night!`
+  },
+  {
+    id: "22-acacia-avenue",
+    title: "22 Acacia Avenue",
+    album: "The Number of the Beast (1982)",
+    tuning: "E Standard (E A D G B E)",
+    key: "F#m / C#m",
+    bpm: 148,
+    difficulty: "Expert",
+    type: "Chords, Riffs & Multi-Section Classic Tab",
+    isBandPriority: true,
+    youtubeId: "Z4mQ7hKj38c", // Studio Original
+    youtubeCId: "IWaikNrkhz4", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/IWaikNrkhz4",
+    summary: "Charlotte the Harlot saga continuation with complex progressive heavy metal shifts.",
+    content: `[Intro Heavy Driving Riff]
+[F#m] [E] [D] [E]
+[F#m] [E] [D] [E]
+
+[Verse 1]
+[F#m]If you're feelin' down depressed and lonely
+[E]I know a place where we can go
+[D]22 Acacia Avenue
+[E]Meet a lady that I know
+[F#m]So if you're looking for a good time
+[E]And you're prepared to pay the price
+[D]Fifteen quid is all she asks for
+[E]Everybody got their vice
+
+[Verse 2]
+[F#m]If you're waiting for a long time
+[E]For the rest to do their piece
+[D]You can tell her that you know me
+[E]And you might even get it free
+[F#m]So any time you're down the East End
+[E]Don't you hesitate to go
+[D]You can take my honest word for it
+[E]She'll teach you more than you can know
+
+[Bridge 1]
+[C#m]Charlotte can't you get out from all this madness? (Madness)
+[A]Can't you see it only brings you sadness?
+[B]When you entertain your men don't know the risk of getting disease
+[C#m]Some day when you're reach the age of forty
+[A]I bet you'll regret the days when you were laying
+[B]Nobody then will want to know
+[F#m]You won't have any beautiful wares to show, any more!
+
+[Chorus]
+[F#m]22, the [E]Avenue
+[D]That's the place where [E]we all go
+[F#m]You will find it's [E]warm inside
+[D]The red light's burning [E]bright tonight!
+
+[Bridge 2]
+[C#m]Charlotte isn't it time you stopped this mad life
+[A]Don't you ever think about the bad times
+[B]Why do you have to live this way?
+[C#m]Do you enjoy your lay or is it the pay?
+[A]Sometimes when your strolling down the avenue
+[B]The way you walk it make men think of having you
+[F#m]When you're walking down the street
+[G#m]Everybody stops and turns to stare at you
+
+[Chorus]
+[F#m]22, the [E]Avenue
+[D]That's the place where [E]we all go
+[F#m]You will find it's [E]warm inside
+[D]The red light's burning [E]bright tonight!
+
+[Heavy Fast Breakdown / Chant Section]
+[F#m]Beat her, mistreat her, do anything that you please
+[E]Bite her, excite her, make her get down on her knees
+[D]Abuse her, misuse her, she can take all that you've got
+[E]Caress her, molest her, she always does what you want?
+
+[Guitar Solos Section]
+[F#m] [E] [D] [E]
+[F#m] [E] [D] [E]
+
+[Outro Section]
+[F#m]You're running away, don't you know what you're doing?
+[E]Can't you see it'll lead you to ruin?
+[D]Charlotte you've taken your life and you've thrown it away
+[E]You believe that because what you're earning?
+[F#m]Your life's good don't you know that it's hurting?
+[E]All the people that love you don't cast them aside
+[D]All the men that are constantly drooling
+[E]It's no life for you stop all that screwing
+[F#m]You're packing your bags, you're coming with me!`
   }
 ];
 
