@@ -853,6 +853,78 @@ If you're gonna die
 [D]That we must love all things that God made
 [C]And the wedding guest's a sad and wiser man
 [D]And the tale goes on and on and on and [Em]on`
+  },
+  {
+    id: "aces-high",
+    title: "Aces High",
+    album: "Powerslave (1984)",
+    tuning: "E Standard (E A D G B E)",
+    key: "Em",
+    bpm: 232,
+    difficulty: "Expert",
+    type: "Chords, Riffs & Twin Guitar Intro Tab",
+    isBandPriority: true,
+    youtubeId: "Xg9aQvjMS4U", // Studio Original
+    youtubeCId: "u3uWszIkjRI", // Band C Tuning Track
+    youtubeCLink: "https://youtu.be/u3uWszIkjRI",
+    summary: "High-speed WWII aerial dogfight anthem with custom performance lyrics for The Ancient Mariners.",
+    content: `[Churchill Speech & Twin Guitar Intro Riff]
+[TAB]
+e|-----------------------------------|-----------------------------------|
+B|-------12--10~------12--10~--------|-------12--10~------12--10~--------|
+G|---9-12--12-----9-12--12---12-10---|---9-12--12-----9-12--12---12-10---|
+D|-9------------9-----------------12-|-9------------9-----------------12-|
+A|-----------------------------------|-----------------------------------|
+E|-----------------------------------|-----------------------------------|
+[/TAB]
+
+[Verse 1]
+[Em]There goes the siren that warns of the air raid
+[C]Then comes the sound of the [D]guns sending flak
+[Em]Out for the scramble, we've got to get airborne
+[C]Got to get up for the [D]coming attack
+[Em]Jump in the cockpit and start up the engines
+[C]Remove all the wheelblocks, there's [D]no time to waste
+[Em]Gathering speed as we head down the runway
+[C]Got to get airborne be[D]fore it's too late
+
+[Pre-Chorus]
+[C5]Running, [D5]scrambling, [E5]flying
+[C5]Rolling, [D5]turning, [E5]diving, going in again!
+[C5]Running, [D5]scrambling, [E5]flying
+[C5]Rolling, [D5]turning, [E5]diving
+
+[Chorus]
+[Em]Run, live to fly!
+[C]Fly to live, [D]do or die!
+[Em]Won't you run, live to fly!
+[C]Fly to live, [D]aces high!
+
+[Verse 2]
+[Em]Move in to fire at the mainstream of bombers
+[C]Let off a sharp burst and [D]then turn away
+[Em]Roll over, spin 'round to come in behind them
+[C]Move to their blindsides and [D]firing again
+[Em]Bandits at 8 o'clock move in behind us
+[C]Ten ME-109's out of [D]the sun
+[Em]Ascending and turning our spitfires to face them
+[C]Heading straight for them, I [D]press down my guns
+
+[Pre-Chorus]
+[C5]Rolling, [D5]turning, [E5]diving
+[C5]Rolling, [D5]turning, [E5]diving (doing it again)
+[C5]Rolling, [D5]turning, [E5]diving
+[C5]Rolling, [D5]turning, [E5]diving
+
+[Guitar Solos Section]
+[E5] [C5] [D5] [E5]
+[E5] [C5] [D5] [E5]
+
+[Chorus / Outro]
+[Em]Run, live to fly!
+[C]Fly to live, [D]do or die!
+[Em]Won't you run, live to fly!
+[C]Fly to live, [D]aces high!`
   }
 ];
 
